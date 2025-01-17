@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+
+	<!-- STYLES -->
+	<link href="assets/css/animate.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/flexslider.css" rel="stylesheet">
+	<link href="assets/css/style.css" rel="stylesheet">
+	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+<!-- <link rel="preload" href="./assets/css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"></noscript> -->
+
+</head>
+<body class="load-full-screen">
+	<!-- BEGIN: SITE-WRAPPER -->
+	<div class="site-wrapper">
+		<div class="row header-top">
+			<div class="container">
+				<div class="site-logo" style="">
+					<a href="./">
+				  <img src="./assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+				</a>
+			  </div>
+			</div>
+		</div>
+		<div class="row light-menu">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" id="vidzy-navbar">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link" href="index.html">About</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									SERVICES
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="./service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="./service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="./service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="./service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="./service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="./service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="./service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="./service/paralegal-services.html">Paralegal Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="#">Legal Insight</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+						</ul>
+					</div>
+					<a href="contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+				</nav>
+			</div>
+		</div>
+		
+		<!-- <div id="room-gallery" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000"> -->
+					<!-- <div >
+
+			<div class="carousel-inner">
+				<div class="carousel-item active">
+					<img src="./assets/images/homepage/banner.webp" class="d-block w-100" alt="#">
+					<div class="carousel-caption slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1 class="animated-text">Precision In Practice Courage In Approach</h1>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/homepage/banner-2.webp" class="d-block w-100" alt="#">
+					<div class="carousel-caption slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1 class="animated-text">Strength In Strategy Impact In Action</h1>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/homepage/banner-4.webp" class="d-block w-100" alt="#">
+					<div class="carousel-caption slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1 class="animated-text">Legal Compass In Complex Business World</h1>
+					</div>
+				</div>
+				<div class="carousel-item">
+					<img src="./assets/images/homepage/banner-4.webp" class="d-block w-100" alt="#">
+					<div class="carousel-caption slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1 class="animated-text">Committed To Cause, Dedicated To Results</h1>
+					</div>
+				</div>
+			</div>
+			<button class="carousel-control-prev" type="button" data-bs-target="#room-gallery" data-bs-slide="prev">
+				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Previous</span>
+			</button>
+			<button class="carousel-control-next" type="button" data-bs-target="#room-gallery" data-bs-slide="next">
+				<span class="carousel-control-next-icon" aria-hidden="true"></span>
+				<span class="visually-hidden">Next</span>
+			</button>
+		</div> -->
+
+
+		<!-- <div> -->
+		<div class="swiper-container">
+			<div class="swiper-wrapper">
+				<!-- Slide 1 -->
+				<div class="swiper-slide">
+					<img src="./assets/images/homepage/banner.webp" alt="Slide 1" />
+					<div class="slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1>Precision In Practice Courage In Approach</h1>
+						
+					</div>
+				</div>
+				<!-- Slide 2 -->
+				<div class="swiper-slide">
+					<img src="./assets/images/homepage/banner-2.webp" alt="Slide 2" />
+					<div class="slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1>Strength In Strategy Impact In Action</h1>
+						
+					</div>
+				</div>
+				<!-- Slide 3 -->
+				<div class="swiper-slide">
+					<img src="./assets/images/homepage/banner-4.webp" alt="Slide 3" />
+					<div class="slide-caption">
+						<p>Welcome to Pramah Lawmen</p>
+						<h1>Legal Compass In Complex Business World</h1>
+					
+					</div>
+				</div>
+			</div>
+			<!-- Swiper Pagination -->
+			<div class="swiper-pagination"></div>
+			<!-- Swiper Navigation -->
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+		
+
+		<section class="stats-pannel">
+			<div class="container">
+				<div class="row ">
+					<div class="col-lg-4">
+						<div class="why-info-panel">
+							<i class="far fa-eye"></i>
+							<!-- <img data-src="./assets/home-page/unmatched-network.webp" alt="Unmatched Network" class="ls-is-cached lazyloaded" src="./assets/home-page/unmatched-network.webp"> -->
+							<h3> vision </h3>
+							<p>To achieve and maintain the highest standards of legal excellence.</p>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="why-info-panel why-pannel-bg">
+							<i class="fas fa-trophy"></i>
+							<!-- <img data-src="./assets/home-page/unmatched-network.webp" alt="Unmatched Network" class="ls-is-cached lazyloaded" src="./assets/home-page/unmatched-network.webp"> -->
+							<h3 > mission </h3>
+							<p>Delivering impactful legal solutions</p>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="why-info-panel">
+							<i class="far fa-eye"></i>
+							<!-- <img data-src="./assets/home-page/unmatched-network.webp" alt="Unmatched Network" class="ls-is-cached lazyloaded" src="./assets/home-page/unmatched-network.webp"> -->
+							<h3 > values </h3>
+							<p>Integrity, Courage, Precision, Social Responsibility, Empowerment</p>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="about-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col col-lg-3 col-md-5">
+						<div class="about-title">
+							<div class="title-text">
+												  <h2>About<br>Pramah Lawmen</h2>
+											 </div>
+										</div>
+					</div>
+					<div class="col-lg-9">
+						<div class="about-text">
+							<div class="content">
+							  <p>Welcome to PRAMAH LAWMEN, a trusted legal partner dedicated to serving your needs with integrity, expertise, and commitment to legal excellence. We hold ourselves to the highest ethical standards, making our clients and their needs our priority.</p>
+			
+								 <a href="https://pramahlawmen.com/about/" class="theme-btn-s2">
+								  More About Us                    
+								</a>			   
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="our-partner">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title  section-title-6742c7ba2963f ">
+							<h2>Desk of Managing Partner</h2>
+						</div>
+					</div>
+					<div class="col-lg-8">
+						<div class="page-wrapper">
+							<p>“At PLC, we understand that each client and case is unique, and hence our commitment to each is based on principles of trust, integrity and professionalism. Each of our attorney's aims to be a beacon of legal expertise and trusted ally to our clients in pursuit of smooth operations of their businesses. We listen with empathy, advise with expertise, and advocate with unwavering determination. We believe in the power of open communication, the importance of tailored solutions, and the strength of collaborative relationships. Your interests and rights are our foremost priority." – Ridhima Sharma</p>
+						</div>
+					</div>
+					<div class="col-lg-4">
+						<div class="partner-wrapper">
+							<div class="partner-image">
+								<img src="./assets/images/homepage/ridhima-sharma.webp" alt="">
+							</div>
+							<div class="partner-text">
+								<h3 style="text-align: center;"><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">Ridhima Sharma</a></h3>
+								<p style="text-align: center;">Managing Partner &amp; Founder</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="services-title">
+							<span>Areas of practice</span>
+							<h2>Our Services</h2>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/transaction-advisory-services.webp" class="img-fluid lazyload" alt="Transaction Advisory Services">
+
+							<h3>Transaction Advisory Services</h3>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/contract-lifecycle-management.webp" class="img-fluid lazyload" alt="Contract Lifecycle Management">
+
+							<h3>Contract Lifecycle Management</h3>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/intellectual-property-portfolio-management.webp" class="img-fluid lazyload" alt="Intellectual Property Portfolio Management">
+
+							<h3>Intellectual Property Portfolio Management</h3>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/secretarial-compliance.webp" class="img-fluid lazyload" alt="Secretarial Compliance">
+
+							<h3>Secretarial Compliance</h3>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/startup-advisory.webp" class="img-fluid lazyload" alt="Startup Advisory">
+
+							<h3>Startup Advisory</h3>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/miscellaneous-legal-services.webp" class="img-fluid lazyload" alt="Miscellaneous legal services">
+
+							<h3>Miscellaneous legal services
+							</h3>
+						  </div>
+					</div>					
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/media-and-entertainment-law.webp" class="img-fluid lazyload" alt="Media and Entertainment Law">
+
+							<h3>Media and Entertainment Law</h3>
+						  </div>
+					</div>
+					<div class="col-lg-4">
+						<div class="category-wrap text-center">
+								<img src="./assets/images/homepage/paralegal-services.webp" class="img-fluid lazyload" alt="Paralegal Services">
+
+							<h3>Paralegal Services</h3>
+						  </div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="experts-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title  section-title-6742c7ba2963f ">
+							<span>Areas of practice</span>
+							<h2>Our Attorneys</h2>
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="expert-wrapper">
+							<div class="expert-card">
+								<div class="expert-image">
+									<img src="./assets/images/homepage/jankee.webp" alt="">
+								</div>
+								<div class="expert-text">
+									<h3><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">
+										Jankee B. Pandey</a></h3>
+									<p >Legal Director</p>
+								</div>
+							</div>
+							<div class="expert-card">
+								<div class="expert-image">
+									<img src="./assets/images/homepage/anu-gupta-1.webp" alt="">
+								</div>
+								<div class="expert-text">
+									<h3><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">
+										Anu Gupta</a></h3>
+									<p>Senior Associate – Intellectual Property</p>
+								</div>
+							</div>
+							<div class="expert-card">
+								<div class="expert-image">
+									<img src="./assets/images/homepage/richa-singh.webp" alt="">
+								</div>
+								<div class="expert-text">
+									<h3 ><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">
+										CS Richa Singh</a></h3>
+									<p >Senior Associate - Compliance</p>
+								</div>
+							</div>
+							<div class="expert-card">
+								<div class="expert-image">
+									<img src="./assets/images/homepage/shiva-pandey.webp" alt="">
+								</div>
+								<div class="expert-text">
+									<h3 ><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">
+										Shiva Pandey</a></h3>
+									<p >Senior Associate - Corporate</p>
+								</div>
+							</div>							
+							<div class="expert-card">
+								<div class="expert-image">
+									<img src="./assets/images/homepage/dr.-amita-kumari.webp" alt="">
+								</div>
+								<div class="expert-text">
+									<h3 ><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">
+										Dr. Amita Kumari</a></h3>
+									<p >Senior Associate - Patents</p>
+								</div>
+							</div>
+							<div class="expert-card">
+								<div class="expert-image">
+									<img src="./assets/images/homepage/anwe-hussain-azad.webp" alt="">
+								</div>
+								<div class="expert-text">
+									<h3 ><a href="https://pramahlawmen.com/attorney/ridhima-sharma/">
+										Anwer Hussain Azad</a></h3>
+									<p >Legal Associate - Intellectual Property</p>
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="blog-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title  section-title-6742c7ba2963f ">
+							<span>OUR BLOGS</span>
+							<h2>Recent Blog</h2>
+						</div>
+					</div>
+					<div class="col-lg-12">
+						<div class="blog-wrapper">
+
+							<div class="blog-itam-wraper">
+								<figure>
+								  <a href="./">
+									<img class="img-fluid w-100 lazyload" alt="Trademark Renewal and Legal Safeguards" src="./assets/images/homepage/blog-10.webp">
+								  </a>
+								</figure>
+								<div class="blog-itam-wraper-body">
+								  <a href="./blog/instagram-dm-automation.html">
+									<h3>Trademark Renewal and Legal Safeguards</h3>
+								  </a>
+								  <div class="meta">
+									<ul>
+										<li><span> by <a href="https://pramahlawmen.com/author/admin/" rel="author">Admin</a></span></li>				              
+									</ul>
+									</div>
+								</div>
+							  </div>
+							  <div class="blog-itam-wraper">
+								<figure>
+								  <a href="./">
+									<img class="img-fluid w-100 lazyload" alt="Plausibility effect in the Grant of Patents in India" src="./assets/images/homepage/blog-8.webp">
+								  </a>
+								</figure>
+								<div class="blog-itam-wraper-body">
+								  <a href="./blog/instagram-dm-automation.html">
+									<h3>Plausibility effect in the Grant of Patents in India</h3>
+								  </a>
+								  <div class="meta">
+									<ul>
+										<li><span> by <a href="https://pramahlawmen.com/author/admin/" rel="author">Admin</a></span></li>				              
+									</ul>
+									</div>
+								</div>
+							  </div>
+							  <div class="blog-itam-wraper">
+								<figure>
+								  <a href="./">
+									<img class="img-fluid w-100 lazyload" alt="Transforming Style into Identity: Trade Dress" src="./assets/images/homepage/blog-9.webp">
+								  </a>
+								</figure>
+								<div class="blog-itam-wraper-body">
+								  <a href="./blog/instagram-dm-automation.html">
+									<h3>Transforming Style into Identity: Trade Dress</h3>
+								  </a>
+								  <div class="meta">
+									<ul>
+										<li><span> by <a href="https://pramahlawmen.com/author/admin/" rel="author">Admin</a></span></li>				              
+									</ul>
+									</div>
+								</div>
+							  </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section class="our-client">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title  section-title-6742c7ba2963f ">
+							<h2>Our Clients</h2>
+						</div>
+								  <!-- start swiper -->
+								  <div class="marquee"> 
+									<ul class="marquee-content">
+									  <li>
+										<img src="./assets/images/homepage/clients/ed-logo.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-10-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-11-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-12-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-13-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-14-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-15-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-16-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-17-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-18-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/clients/image-20-1.webp" alt="">
+									  </li>    
+									  <li>
+										<img src="./assets/images/homepage/clients/image-20-1.webp" alt="">
+									  </li>                                                       
+									  <li>
+										<img src="./assets/images/homepage/clients/image-21-1.webp" alt="">
+									  </li>  
+									  									  
+									  <li>
+										<img src="./assets/images/homepage/clients/image-23-1.webp" alt="">
+									  </li>  									  
+									  <li>
+										<img src="./assets/images/homepage/clients/image-24-1.webp" alt="">
+									  </li>  
+									  <li>
+										<img src="./assets/images/homepage/clients/image-25-1.webp" alt="">
+									  </li>  
+									  <li>
+										<img src="./assets/images/homepage/clients/image-6-1.webp" alt="">
+									  </li>  
+									  <li>
+										<img src="./assets/images/homepage/clients/image-8-1.webp" alt="">
+									  </li> 
+									  <li>
+										<img src="./assets/images/homepage/clients/image-9-1.webp" alt="">
+									  </li> 
+									  <li>
+										<img src="./assets/images/homepage/clients/yugen-infra.webp" alt="">
+									  </li> 
+
+									</ul>
+								  </div> 
+						  
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+		<section class="">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title  section-title-6742c7ba2963f ">
+							<h2>Our Collaborations</h2>
+						</div>
+						  
+								  <div class="left-right-marquee"> 
+									<ul class="marquee-content">
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-2.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-3.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-4.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-5.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-6.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-1.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-2.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-3.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-4.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-5.webp" alt="">
+									  </li>
+									  <li>
+										<img src="./assets/images/homepage/collaborations/coll-6.webp" alt="">
+									  </li>                             
+									</ul>
+								  </div> 
+								  <!-- end swiper -->
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="section-title  testimonials-title ">
+							<h2>Testimonials</h2>
+						</div>
+					</div>
+					<div class="col-lg-12 mt-5"> 
+						<div class="swiper stepsSwiper"> <!-- start swiper -->
+						  <div class="swiper-wrapper">
+							<div class="swiper-slide slide-wrapper">
+								<div class="testimonial-text">
+									<h3>“The team at PRAMAH demonstrates outstanding expertise that has played a vital role in managing a range of legal concerns for our university, ensuring adherence to regulations, and safeguarding the best interests of our institution."</h3>
+			
+								</div>
+								<div class="testi-user">
+									<p>Ritesh Hada</p>
+									<p>President - Karnavati University</p>
+								  </div>
+							</div>
+							<div class="swiper-slide slide-wrapper">
+								<div class="testimonial-text">
+									<h3>
+										“PRAMAH's team of IP experts has provided an all-encompassing solution for all our intellectual property requirements, covering the formulation of legal strategies through to their effective execution“	
+									</h3>			
+								</div>
+								<div class="testi-user">
+									<p>Praveen Joshi </p>
+									<p>Director NAEMD</p>
+								  </div>
+							</div>
+							<div class="swiper-slide slide-wrapper">
+								<div class="testimonial-text">
+									<h3>“PRAMAH's management of the complete lifecycle of our diverse contracts has led to a substantial transformation in our freight forwarding business. Their meticulous approach has not only safeguarded our interests but also optimised the efficiency and compliance of our business operations. We deeply appreciate their expertise and unwavering support.“	</h3>	
+								</div>
+								<div class="testi-user">
+									<p>Pradeep Singh Jhala</p>
+									<p>Director  - Transmodal Logistics </p>
+								  </div>
+							</div>
+							<div class="swiper-slide slide-wrapper">
+								<div class="testimonial-text">
+									<h3>“The consistent and punctual compliance of my startup has significantly elevated our professional credibility. The compliance team at PRAMAH is always proactive, ensuring that everything is in order before I even have to think about it.“	</h3>				
+								</div>
+								<div class="testi-user">
+									<p>Neha Adnani</p>
+									<p>Proprietor - Label Azalia</p>
+								  </div>
+							</div>
+							<div class="swiper-slide slide-wrapper">
+								<div class="testimonial-text">
+									<h3>“Despite the geographical separation and varying time zones, PRAMAH has consistently managed our contracts and academic collaborations in India with great reliability. We highly recommend them for their precision and extensive research capabilities.“	</h3>
+								</div>
+								<div class="testi-user">
+									<p>Rajesh Asrani</p>
+									<p>Director  - City College, Toronto</p>
+								  </div>
+							</div>
+						  </div>
+						</div><!-- end swiper -->
+					  </div>
+				</div>
+			</div>
+		</section>
+
+		<section class="contact-pannel">
+			<div class="conatiner">
+				<div class="row justify-content-center">
+					<div class="col-lg-10">
+						<div class="form-holder contact-wrapper">
+
+							<div class="about-title title-wrapper">
+								<div class="title-text">
+													  <h2>Book A<br> 
+														Consultation</h2>
+														<p>Call + 91 7600 675 676 or fill out the form below to receive a confidential initial consultation.</p>
+												 </div>
+											</div>
+
+							<form name="contact-form" class="row contact-form" novalidate="novalidate" onsubmit="return false">
+														
+									  <div class="col-lg-6">
+										<div class="form-group input-bottom-border">
+											<input type="text" id="bname" name="name" class="form-control name" placeholder="Brand Name *"> 
+										</div>
+									  </div>
+											
+									  <div class="col-lg-6">
+										<div class="form-group input-bottom-border">
+											<input type="text" id="weburl" name="Lname" class="form-control name" placeholder="Website/Social Media URL *"> 
+										</div>
+									  </div>  
+									  <div class="col-lg-6">
+										<div class="form-group input-bottom-border">
+										  <input type="email" id="Email" name="email" class="form-control email" placeholder="Email Address *">
+										  <span id="emailError" class="error"></span>
+										</div>
+									  </div>   
+     
+									  <div class="col-md-12">
+										<div class="form-group input-bottom-border ">
+											<textarea name="message" id="message" class="form-control message mb-5" rows="5" placeholder="Your Message ..."></textarea>
+										</div>
+									  </div> 
+									  <div class="col-md-6">  
+										<div class="contactus-cta ">
+											<button class="primary-btn btn-bg has-arrow" id="mail-btn" onclick="sendEmail()"> 
+											  <!-- <span id="btn-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> -->
+											  SUBMIT </button>
+										</div>
+									  </div>                         
+							</form>	
+						   </div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="footer">
+			<footer>
+			  <div class="main-footer ">
+				<div class="container p-4">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 mb-4">
+							<img src="https://pramahlawmen.com/wp-content/uploads/2023/10/logo-1.png" alt="Logo" class="img-fluid pb-5">
+							<ul class="list-unstyled">
+								<li><a href="#">Email: info@pramahlawmen.com</a></li>
+								<li><a href="#">Phone: + 91 7600 675 676</a></li>
+							  </ul>
+						  </div>
+						  <div class="col-lg-4 col-sm-6 mb-4">
+							<h3 class="pb-3">Our Services</h3>
+							<ul class="list-unstyled">
+							  <li><a href="#">Transaction Advisory Services
+							</a></li>
+							  <li><a href="#">Contract Lifecycle Management</a></li>
+							  <li><a href="#">Intellectual Property Portfolio Management</a></li>
+							  <li><a href="#">Secretarial Compliance</a></li>
+							  <li><a href="#">Startup Advisory</a></li>
+							  <li><a href="#">Miscellaneous legal services</a></li>
+							  <li><a href="#">Media and Entertainment Law</a></li>
+							  <li><a href="#">Paralegal Services</a></li>
+							</ul>
+						  </div>
+						  <div class="col-lg-4 col-sm-6 mb-4">
+							<h3 class="pb-3">Contact Info</h3>
+							<p> Ahmedabad Office:<br>
+								12th floor, Shivarth The ACE,<br>
+								Sindhu Bhavan Road, Bodakdev,<br>
+								Ahmedabad - 380054</p>
+							<p>+91 9725 179 191</p>
+							<p> Gurugram Office: <br>
+								Tower A - 426, EMAAR DIGITAL GREEN, <br>
+								Sector 61, Gurugram 122011</p>
+						  </div>
+					</div>
+
+				</div>
+			  </div>
+			  <div class="main-footer-nav row bg-dark text-white py-3">
+				<div class="container-fluid text-center">
+				  <p class="mb-0">© Copyright 2024 | Pramahlawmen | All rights reserved.
+					<br>
+					Privacy Policy</p>
+				</div>
+				<!-- <div class="go-up text-center mt-2">
+				  <a href="#" class="text-white"><i class="fa fa-arrow-up"></i></a>
+				</div> -->
+			  </div>
+			</footer>
+		  </section>
+
+		  <div class="scroll-top-btn"> <span onclick="scrollToTop()"> </span> </div>
+		  <a href="https://api.whatsapp.com/send?phone=919899537363" aria-label="Whatsapp" class="whatsapp-icon"
+			target="_blank"> <i class="fab fa-whatsapp"></i> </a>
+		  
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" async></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" ></script>
+	<!-- <script src="./assets/js/bootstrap-select.min.js"></script>
+	<script src="./assets/js/bootstrap-select.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/jquery-ui.min.js"></script>
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/js.js"></script>
+	<script src="./assets/js/respond.js"></script> -->
+<!-- Swiper CSS -->
+
+
+<!-- Swiper JS -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+
+	<script>
+
+    $(document).scroll(function () {
+      var $nav = $("#vidzy-navbar");
+      $nav.toggleClass('stciky', $(this).scrollTop() > $nav.height());
+    });
+
+    $('#type-text').typed({
+      strings: [
+        "", "Creativity.", "Innovation.", "Storytelling."
+      ],
+      typeSpeed: 75,
+      backSpeed: 75,
+      backDelay: 400,
+      startDelay: 200,
+      loop: true,
+      showCursor: false,
+      cursorChar: "|",
+      attr: null,
+    });
+
+    function scrollToTop() {
+      $("html, body").animate({ scrollTop: 0 }, "slow");
+    }
+// steps swiper
+
+var swiper = new Swiper(".stepsSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  freeMode: true,
+  pagination: {
+    // el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.1,
+      spaceBetween: 15,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween:15,
+    },     
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    992: {
+      slidesPerView: 2.5,
+      spaceBetween:30,
+    },
+    1200: {
+      slidesPerView:1,
+      spaceBetween:20,
+    },    
+  },
+});
+
+
+
+	</script>
+	<script>
+		var swiper = new Swiper('.swiper-container', {
+			loop: true, // Enable looping
+			autoplay: {
+				delay: 3000, // Delay between slides
+				disableOnInteraction: false,
+			},
+			pagination: {
+				el: '.swiper-pagination',
+				clickable: true,
+			},
+			navigation: {
+				nextEl: '.swiper-button-next',
+				prevEl: '.swiper-button-prev',
+			},
+		});
+	</script>
+	
+</body>
+</html>

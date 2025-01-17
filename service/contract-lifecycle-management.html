@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+
+	<!-- STYLES -->
+	<link href="assets/css/animate.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/flexslider.css" rel="stylesheet">
+	<link href="../assets/css/style.css" rel="stylesheet">
+	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+ 
+<link rel="preload" href="./assets/css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"></noscript>
+<style>
+    h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    color: #282e3f;
+} p {
+    color: #838383;
+}
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
+ul li {
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #838383;
+}
+	.about-banner {
+    padding: 2.5rem 0;
+    background-color: rgba(25, 25, 25, 0.7);
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+}
+.small-index {
+    background-color: #f8f8f8;
+    padding: 45px 35px;
+}
+.small-index ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.small-index ul li{
+    font-size: 1.125rem;
+    color: #838383;
+    margin-top: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.small-index ul li:before {
+    content: "-";
+    color: #bbb;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.about-banner h1{
+	font-size: 3.75rem;
+    color: #ffffff;
+}
+.contact-sec{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.form-group.input-bottom-border input{
+    background-color: #f8f8f8;
+    height: 55px;
+    padding: 6px 15px;
+    border: 2px solid #f8f8f8;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	font-family: "Lato", sans-serif;
+}
+.input-bottom-border .form-control{
+    background-color: #f8f8f8;
+	font-family: "Lato", sans-serif;
+}
+.contact-form {
+    padding: 0;
+}
+.contact-detail-wrapper{
+	background-color: rgba(174, 160, 118, 0.85);
+    padding: 2rem 3rem;
+	text-align: left;
+}
+.contact-detail-wrapper p{
+	color: #fff;
+}
+.contact-detail-wrapper ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.contact-detail-wrapper ul li{
+	font-family: "Lato", sans-serif;
+    position: relative;
+    padding-left: 35px;
+    line-height: 1.6em;
+	color: #ffffff;
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+.contact-detail-wrapper ul li i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.contact-detail-wrapper ul li a{
+	color: #ffffff;
+}
+.contact-form .form-control {
+    height: 40px;
+    border-radius: 0px;
+    margin: 0px 0px 13px;
+}
+.block-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 0rem;
+    margin-bottom: 2rem;
+}
+.social-media{
+	width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 30px 10px;
+    border: 1px solid #474a4c;
+    margin-left: -1px;
+}
+.social-media-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.social-media-wrapper a {
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: #cacaca;
+}
+.social-media-sec {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.contact-wrapper{
+    background-color: #f8f8f8;
+    padding: 45px 35px;
+    margin-top: 3rem;
+}
+.contact-wrapper h3{
+    font-size: 22px;
+    margin: 0 0 1em;
+    padding-right: 2.2em;
+    position: relative;
+    display: inline-block;
+}
+.input-bottom-border .form-control {
+    /* background-color: rgba(40, 46, 63, 0.7); */
+    height: 50px;
+    padding: 6px 15px;
+    /* color: #fff !important; */
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group.input-bottom-border input {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+	@media only screen and (min-width: 768px) {
+    .about-banner {
+        padding: 3.5rem 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .about-banner {
+        padding: 10rem 0;
+        background-position: center top;
+    }
+}
+</style>
+</head>
+<body class="load-full-screen">
+	<!-- BEGIN: SITE-WRAPPER -->
+	<div class="site-wrapper">
+		<div class="row header-top">
+			<div class="container">
+				<div class="site-logo" style="">
+					<a href="../">
+				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+				</a>
+			  </div>
+			</div>
+		</div>
+		<div class="row light-menu">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" id="vidzy-navbar">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link" href="../">About</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									SERVICES
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="#">Legal Insight</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
+						</ul>
+					</div>
+					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+				</nav>
+			</div>
+		</div>
+
+		<section class="about-banner">
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-12">
+				  <h1> Service</h1>
+				</div>
+
+			  </div>
+			</div>
+		  </section>
+
+
+
+		  <section class="social-media-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="section-title  section-title-6742c7ba2963f ">
+                            <img src="../assets/images/contract-lifecycle-management/8wo26iz61g5bc13k.jpg" alt="" class="img-fluid">
+							<h1 class="pt-5">Contract Lifecycle Management</h1>
+                            <p>We excel in offering top-notch contract management and attorney services. We recognize that execution of effective contracts are vital for the seamless operation and growth of your business. With years of expertise, we skilfully prepare impactful documentation, from drafting all kinds of contracts to their review and negotiations precisely befitting to the specific needs of all parties involved. Whether it is sales agreement/purchase agreement, lease deed, employment contract, service agreement, non-disclosure agreement (NDA), partnership agreement, operating agreement (for LLCs) or shareholders agreement (for corporations), loan agreement, joint venture agreement, franchise agreement or an agency agreement, intellectual property agreement, construction contract, software license agreement, consulting agreement, real estate purchase agreement, insurance contract, trust PRAMAH for our meticulous legal support that goes beyond paperwork, facilitating the smooth functioning and sustainable growth of your business.</p>
+                            <ul>
+                                <li>Drafting, Review, Redlining and Negotiation</li>
+                                <li>Contract Abstraction/Extraction Services</li>
+                                <li>Creating and Managing Contract Database and Repositories</li>
+                                <li>Labelling/Annotation of Key Contract Terms</li>
+                                <li>Addendum and Amendment</li>
+                                <li>Registrations and Renewals</li>
+                                <li>Surveillance and Adherence</li>
+                            </ul>
+						</div>
+					</div>
+					<div class="col-lg-4">
+                        <div class="small-index">
+                            <h3>Our Services</h3>
+                            <ul>
+                                
+                                <li>Transaction Advisory Services</li>
+                                <li>Contract Lifecycle Management</li>
+                                <li>Intellectual Property Portfolio Management</li>
+                                <li>Secretarial Compliance</li>
+                                <li>Startup Advisory</li>
+                                <li>Miscellaneous legal services</li>
+                                <li>Media and Entertainment Law</li>
+                                <li>Paralegal Services</li>
+                            </ul>
+                        </div>
+                        <div class="contact-wrapper">
+                            <h3>Book Your Consultation</h3>
+                            <form name="contact-form" class="row contact-form" novalidate="novalidate" onsubmit="return false">
+															
+                                <div class="col-lg-12">
+                                  <div class="form-group input-bottom-border">
+                                      <input type="text" id="bname" name="name" class="form-control name" placeholder="Brand Name *"> 
+                                  </div>
+                                </div>
+                                      
+                                <div class="col-lg-12">
+                                  <div class="form-group input-bottom-border">
+                                      <input type="text" id="weburl" name="Lname" class="form-control name" placeholder="Website/Social Media URL *"> 
+                                  </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                  <div class="form-group input-bottom-border">
+                                    <input type="email" id="Email" name="email" class="form-control email" placeholder="Email Address *">
+                                    <span id="emailError" class="error"></span>
+                                  </div>
+                                </div>   
+        
+                                <div class="col-md-12">
+                                  <div class="form-group input-bottom-border ">
+                                      <textarea name="message" id="message" class="form-control message mb-5" rows="5" placeholder="Your Message ..."></textarea>
+                                  </div>
+                                </div> 
+                                <div class="col-md-6">  
+                                  <div class="contactus-cta ">
+                                      <button class="primary-btn btn-bg has-arrow" id="mail-btn" onclick="sendEmail()"> 
+                                        <!-- <span id="btn-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> -->
+                                        SUBMIT </button>
+                                  </div>
+                                </div>                         
+                      </form>	
+                        </div>
+
+
+
+
+					</div>
+				</div>
+			</div>
+		  </section>
+
+
+		<section id="footer">
+			<footer>
+			  <div class="main-footer ">
+				<div class="container p-4">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 mb-4">
+							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<ul class="list-unstyled">
+								<li><a href="#">Email: info@pramahlawmen.com</a></li>
+								<li><a href="#">Phone: + 91 7600 675 676</a></li>
+							  </ul>
+						  </div>
+						  <div class="col-lg-4 col-sm-6 mb-4">
+							<h3 class="pb-3">Our Services</h3>
+							<ul class="list-unstyled">
+							  <li><a href="#">Transaction Advisory Services
+							</a></li>
+							  <li><a href="#">Contract Lifecycle Management</a></li>
+							  <li><a href="#">Intellectual Property Portfolio Management</a></li>
+							  <li><a href="#">Secretarial Compliance</a></li>
+							  <li><a href="#">Startup Advisory</a></li>
+							  <li><a href="#">Miscellaneous legal services</a></li>
+							  <li><a href="#">Media and Entertainment Law</a></li>
+							  <li><a href="#">Paralegal Services</a></li>
+							</ul>
+						  </div>
+						  <div class="col-lg-4 col-sm-6 mb-4">
+							<h3 class="pb-3">Contact Info</h3>
+							<p> Ahmedabad Office:<br>
+								12th floor, Shivarth The ACE,<br>
+								Sindhu Bhavan Road, Bodakdev,<br>
+								Ahmedabad - 380054</p>
+							<p>+91 9725 179 191</p>
+							<p> Gurugram Office: <br>
+								Tower A - 426, EMAAR DIGITAL GREEN, <br>
+								Sector 61, Gurugram 122011</p>
+						  </div>
+					</div>
+
+				</div>
+			  </div>
+			  <div class="main-footer-nav row bg-dark text-white py-3">
+				<div class="container-fluid text-center">
+				  <p class="mb-0">© Copyright 2024 | Pramahlawmen | All rights reserved.
+					<br>
+					Privacy Policy</p>
+				</div>
+				<div class="go-up text-center mt-2">
+				  <a href="#" class="text-white"><i class="fa fa-arrow-up"></i></a>
+				</div>
+			  </div>
+			</footer>
+		  </section>
+		  
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" async></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" ></script>
+	<!-- <script src="./assets/js/bootstrap-select.min.js"></script>
+	<script src="./assets/js/bootstrap-select.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/jquery-ui.min.js"></script>
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/js.js"></script>
+	<script src="./assets/js/respond.js"></script> -->
+
+	<script>
+
+
+// steps swiper
+
+var swiper = new Swiper(".stepsSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  freeMode: true,
+  pagination: {
+    // el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.1,
+      spaceBetween: 15,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween:15,
+    },     
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    992: {
+      slidesPerView: 2.5,
+      spaceBetween:30,
+    },
+    1200: {
+      slidesPerView:1,
+      spaceBetween:20,
+    },    
+  },
+});
+	</script>
+</body>
+</html>
