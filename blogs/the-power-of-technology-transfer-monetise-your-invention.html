@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,42 +320,58 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/the-power-of-technology-transfer-monetise-your-invention/blog-11.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">The power of technology transfer: Monetise your invention</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+                            <p><strong>Introduction</strong></p>
+                            <p>Discover the realm of Technology Transfer – the gateway to unlocking the full potential of your creations. As an inventor, imagine a world where your ideas not only revolutionize industries but also generate revenue streams, diversify markets, and elevate your global presence, bringing you perpetual success in the world of inventions. This article delves into the significant role of technology transfer for inventors and businesses, showcasing how the capitalization of invented technology can facilitate the way for infinite success.</p>
+                            <p><strong>What is Technology Transfer?</strong></p>
+                            <p>Transfer of technology is the movement of data, materials, innovation, designs, or trade secrets from one person to another or from one organization to another. The process of transferring the technologies is guided by the policies, procedures, and values of each organization. It takes place between universities, businesses, and governments, either formally or informally, to share knowledge, technologies, skills, and more.</p>
+                            <p><strong>The Potential Benefits of Technology Transfer to the Inventor or Owner Include:</strong></p>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                                <li>a) Monetization: Generate revenue by licensing or selling intellectual property.</li>
+                                <li>b) Diversification: Create multiple income streams, reducing reliance on a single product or market.</li>
+                                <li>c) Market Expansion: Generate income from different sources, so inventors are not depending on just one product or market.</li>
+                                <li>d) Access to Resources: Gain funding, expertise, and infrastructure for further innovation.</li>
+                                <li>e) Reduced Risks: Minimize commercialization risks by collaboration with entities skilled in production and distribution.</li>
+                                <li>f) Global Reach: Expand internationally, accessing a broader audience.</li>
+                                <li>g) Enhanced Reputation: Successful transfers boost the inventor’s reputation in their industry.</li>
+                                <li>h) Long-Term Revenue: Licensing agreements provide ongoing revenue over time.</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
+                            <p><strong>Various Forms of Technology Transfer</strong></p>
                             <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
+                                <li>a) Licensing: The owner (licensor) permits another party (licensee) to use technology for fees or royalties. It generates revenue without production and grants access to existing technologies.</li>
+                                <li>b) Partnerships and Collaborations: Entities collaborate for joint development or utilization of technology. It shares resources and accelerates innovation.</li>
+                                <li>c) Technology Transfer Offices (TTOs): Institutional offices managing technology transfer. They streamline processes, negotiate agreements, and facilitate commercialization.</li>
+                                <li>d) Franchising: Allows others to operate using a proven technological system. It expands technology or service reach with a ready-made business model.</li>
+                                <li>e) Sale of Intellectual Property: Outright sale of intellectual property rights (patents, trademarks, etc.). It monetizes intellectual assets, and the buyer gains exclusive usage rights.</li>
                             </ul>
-                            <h2 class="h4">3. Registrations</h2>
+                            <p>Stages in the Technology Transfer Process</p>
                             <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
+                                <li>Invention Disclosure: Introducing or promoting the invention.</li>
+                                <li>Buyer Evaluation: The buyer assesses the potential of the technology.</li>
+                                <li>Assessment of Patent Application Authenticity: Verifying the legitimacy of the patent application.</li>
+                                <li>Market Impact and Profit Assessment: Evaluating the technology’s market impact and potential for profit.</li>
+                                <li>Transaction Approval: Obtaining consent from involved parties for the tech transfer.</li>
+                                <li>Drafting Patent/Technology Transfer Agreement: Creating a formal agreement for the transfer of patents/technology.</li>
+                            <li>Patent Licensing: Granting permission for the use of patented technology.</li>
+                            <li>Commercialization: Bringing the technology into the market for practical use.</li>
+                            </ul>
+                            <p><strong>Real-Life Examples of Successful Licensing Strategies in Different Industries</strong></p>
+                            <ul>
+                                <li>a) Google: Licenses Android to smartphone manufacturers, leading to widespread adoption and dominance.</li>
+                                <li>b) Nike: Licensing of the Jordan Brand, associated with Michael Jordan, results in a successful line of athletic products.</li>
+                                <li>c) Coca-Cola: Licenses Freestyle technology, enhancing customer experience and generating revenue for both Coca-Cola and partners.</li>
+                                <li>d) Tesla: Licenses EV technology to accelerate the adoption of electric mobility.</li>
+                                <li>e) Adidas: Licenses as the official supplier of FIFA World Cup soccer balls, boosting brand visibility and sales.</li>
                             </ul>
 
+                            <p>In the dynamic realm of innovation, technology transfer emerges as the key to unlocking a world of possibilities. From monetizing inventions to expanding global reach, the benefits are vast. Through licensing, collaborations, and strategic partnerships, inventors can navigate the stages of technology transfer, transforming ideas into impactful realities. Real-life success stories like Google’s Android and Nike’s Jordan Brand exemplify the immense potential for growth and influence. As we witness the power of technology transfer shaping industries, it’s clear that the journey from invention to commercialization is a thrilling ride, fueled by collaboration and strategic vision. Seize the opportunity, monetize your invention, and let the world experience the transformative impact of your innovation.</p>
+                            <p>Pramah Lawmen Chambers stands ready to assist in the transfer of technology to businessmen, entrepreneurs, and universities. Our legal professionals, with a keen understanding of technology transfer, can provide valuable guidance for commercializing and expanding businesses through the transfer of technologies.</p>
 
 						</div>
 					</div>
@@ -397,7 +442,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

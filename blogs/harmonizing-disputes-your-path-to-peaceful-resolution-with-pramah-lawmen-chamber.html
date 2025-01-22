@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,55 +306,50 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
 			</div>
 		  </section>
 
-
-
 		  <section class="social-media-sec">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/harmonizing-disputes-your-path-to-peaceful-resolution-with-pramah-lawmen-chamber/1695109306121.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">HARMONIZING DISPUTES: your path to peaceful resolution with PRAMAH LAWMEN CHAMBER.</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+                            <p>In a world where legal complexities and disputes often seem inevitable, the pursuit of peaceful resolutions becomes a beacon of hope. While litigation can be time-consuming and costly, mediation offers a more amicable and efficient path to resolving conflicts. At Pramah Lawmen Chamber, we are not just a law firm; we are your partners in finding common ground, fostering understanding, and achieving equitable solutions through mediation.</p>
+                            <h2>Mediation: A Path to Resolution</h2>
+                            <p>Mediation is a voluntary, confidential process that empowers parties in conflict to take control of their dispute and reach mutually agreeable solutions. This alternative dispute resolution method employs a neutral third party, known as the mediator, who facilitates constructive dialogue, encourages compromise, and guides participants toward a resolution tailored to their unique needs.</p>
+                            <h2>The Benefits of Mediation
+                            </h2>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                                <li>Preservation of Relationships: Mediation prioritizes preserving relationships, whether it’s in a family, business, or community context. This approach allows for the resolution of disputes while minimizing hostility and animosity, ensuring that long-term relationships can endure.</li>
+                                <li>Cost-Effective: Compared to litigation, mediation is significantly more cost-effective. It avoids the hefty legal fees, protracted court battles, and time-consuming processes often associated with traditional legal proceedings.</li>
+                                <li>Control and Empowerment: Mediation places control in the hands of the disputing parties, allowing them to actively participate in shaping the outcome. This sense of ownership fosters cooperation and commitment to the agreed-upon solutions.</li>
+                                <li>Confidentiality: Mediation offers privacy and confidentiality, safeguarding sensitive information and allowing for candid discussions without fear of public exposure.</li>
+                                <li>Flexibility: Mediation is a versatile tool suitable for various situations, including family matters, workplace disputes, business negotiations, and even international conflicts. Its adaptability makes it a valuable resource in diverse scenarios.</li>
+                                <li>Faster Resolution: Mediation often leads to quicker resolutions than lengthy court proceedings, allowing parties to move forward with their lives, businesses, or operations promptly.</li>
+                                <li>High Success Rates: Mediation boasts a high success rate due to the collaborative nature of the process. Parties are more likely to be satisfied with the outcome when they have actively participated in its formation.</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
-                            <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
-                            </ul>
+                            <h2>Pramah Lawmen Chamber: Your Mediation Partner</h2>
+                            <p>At Pramah Lawmen Chamber, our commitment to alternative dispute resolution, mediation runs deep. Our experienced team of legal professionals specializes in guiding individuals and organizations through the mediation process, ensuring that your interests are well-represented while striving for fair and equitable resolutions.</p>
+
+                            <h2>How We Can Help</h2>
+                            <p>Expert Mediation Guidance: Our seasoned mediators possess in-depth knowledge of conflict resolution techniques and can provide expert guidance throughout the mediation process.
+                                Tailored Solutions: We understand that no two disputes are identical. Pramah Lawmen Chamber takes a personalized approach, working closely with clients to develop mediation strategies tailored to their specific needs and objectives.</p>
+                                <p>Preserving Your Interests: While promoting a cooperative atmosphere, we remain dedicated to safeguarding your interests and rights during mediation, ensuring that any agreements reached are in your best interest.</p>
+                                <p>Efficiency and Cost Savings: We recognize the importance of timely and cost-effective solutions. Our mediation services are designed to expedite the resolution process, minimizing disruption and expenses.</p>
+
+                                <h2>Conclusion</h2>
+                                <p>At Pramah Lawmen Chamber, we believe in the transformative power of mediation. By choosing us as your mediation partner, you are not just enlisting a law firm; you are securing a dedicated ally in your pursuit of peaceful conflict resolution. Let us guide you through the mediation process, helping you find common ground, foster understanding, and reach equitable solutions. Together, we can harmonize disputes and pave the way for a brighter future.</p>
 
 
 						</div>
@@ -397,7 +421,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

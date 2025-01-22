@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,55 +306,54 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
 			</div>
 		  </section>
 
-
-
 		  <section class="social-media-sec">
 			<div class="container">
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
-                            <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
-                            </ul>
-                            <h2 class="h4">2. Policies</h2>
-                            <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
-                            </ul>
+                            <img src="/assets/images/blogs/from-likes-to-legalities-a-guide-for-aspiring-influencers/blog-2-768x581.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">From Likes to Legalities: a guide for aspiring influencers</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+                            <p>In the era of digital influence, where every post carries the power to shake, it’s not just about likes and follows – it’s about laws and lines. Influencers aren’t just content creators; they’re legal navigators in the world of social media. As they build empires online, it’s imperative they done their legal hats, for compliance isn’t just a safeguard for them but also the guardian of trust in the digital realm. In this journey through the legal complication, let’s expose to view the essential compliance areas that influencers must adhere to rule the online kingdom with integrity.</p>
+
+                            <h2>Adhering to ASCI guideline</h2>
+                            <p>Adherence to ASCI guideline must for Influencers to avoid costly penalties and legal consequences.</p>
+                            <h2>Endorsements Know-hows Guidelines</h2>
+                            <p>Endorsement guidelines can elevate your influencer game while protecting you, but beware the legal consequences of ignorance.</p>
+                            <h2>Social Media Policies</h2>
+                            <p>Adhere to the terms and policies of the social media platforms you use, as violations can result not only in content removal or account suspension but also reputational damage, loss of followers, and reduced opportunities for collaboration or monetization.</p>
+                            <h2>Taxation</h2>
+                            <p>Influencers must diligently comply with accurate income assessment and tax obligations evaluate their earnings, failing to accurately report income or attempting to evade taxes can lead to serious consequences.</p>
+                            <h2>Consumer Protection</h2>
+                            <p>Consumer protection is vital for influencers to uphold trust and legal compliance, ensuring the long-term success and ethical integrity of their brand and partnerships. Adherence to consumer protection laws is absolutely vital for influencers to maintain their professional credibility and reputation.</p>
+                            <h2>Trademark</h2>
+                            <p>Trademarks safeguard brand’s uniqueness, preventing others from using similar marks that could harm your reputation. This exclusivity builds trust and loyalty, while also serving as a valuable asset to expand your influence and protect your brand’s integrity.</p>
+                            <p>In case of trademark infringement, you may be entitled for royalty and compensation and violating them can lead to significant financial losses and legal troubles.</p>
+
+                            <h2>Copyright</h2>
+                            <p>Copyright laws empower influencers to protect their creative work from unlicensed and uncredited usage, someone copy your original content bring you royalty and compensation, it empowers to monetize your content, and maintain control over how it is used.</p>
+                            <p>By providing legal rights and protections, copyright laws can be a valuable asset for influencers and Bypassing copyright protections can result in substantial financial setbacks and legal consequences.</p>
+
+                            <h2>Contract</h2>
+                            <p>Review and understand the terms of any contracts or agreements you enter into with brands, sponsors, or collaborators to protect your rights and interests.</p>
+
+                            <h2>Data and Privacy Law</h2>
+                            <p>Influencers often collect and process personal data from their followers, such as names and email addresses for promotions or collaborations. Adherence of privacy laws helps them handle this data responsibly and legally. Violating privacy laws can lead to significant fines and legal consequences. Knowing and complying with these laws can help influencers avoid legal trouble.</p>
+
+                            <h2>The Foreign Contribution Regulation Act (FCRA):</h2>
+                            <p>Influencers should verify whether the foreign contributions they receive are in compliance with FCRA regulations. Not all foreign transactions may fall under the FCRA’s purview, and understanding the legal requirements is essential to avoid potential legal issues.</p>
+                            <p>In today’s digital age, influencer marketing has become a powerful tool for individuals and businesses to connect with their target audiences. However, the legal intricacies surrounding influencer marketing can be complex and challenging to navigate. This is where the experts at ‘PRAMAH LAWMEN CHAMBERS’ ‘offers their expertise, ensuring that your influencer career is protected, risks are minimized, and your online presence complies with all relevant laws and regulations. secure your influencer career with us, and let’s embark on this legal journey together.</p>
 
 
 						</div>
@@ -397,7 +425,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

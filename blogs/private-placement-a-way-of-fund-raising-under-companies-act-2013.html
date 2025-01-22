@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,41 +320,64 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/private-placement-a-way-of-fund-raising-under-companies-act-2013/blog-6.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">PRIVATE PLACEMENT: a way of fund raising under Companies Act, 2013</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+
+                            <p>Private Placement is one of the most common method under the Companies Act, 2013 to receive the investment against the issue of securities to the Investor by the Company.</p>
+                            <p>Private placement (non-public offering) is a funding round of securities which are issued not through a public offering, but rather through a private offering, mostly to a small number of chosen investors. Generally, these investors include friends and family, venture capitalist, Private Equity and institutional investors.</p>
+
+                            <p><strong>What is Private Placement?</strong></p>
+                            <p>“Private Placement” means any offer or invitation to subscribe or issue of securities to a selected group of persons by a company (other than by way of public offer) through private placement offer-cum-application.</p>
+
+                            <p><strong>Who can issue the securities under private placement?</strong></p>
+                            <p>The securities under private placement may be issued by the Private Limited Company, Unlisted Public Company or Listed Public Company.</p>
+                            <p><strong>What kind of securities can be offered through private placement?</strong></p>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                                <li>Equity Shares</li>
+                                <li>Preference Shares</li>
+                                <li>Debentures</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
+                            <p><strong>Who can be offeree under private placement?</strong></p>
+                            <p>To a selected group of persons who have been identified by the Board of Directors of the Company.</p>
+                            <p><strong>To how many persons, offer of private placement can be made?</strong></p>
+                            <p>An offer or invitation to subscribe securities under private placement shall not be made to persons more than two hundred in the aggregate in a financial year.</p>
+                            <p><strong>What are the compliance to be ensured for Private Placement?</strong></p>
+                            <p>The compliance overview under private placement are as under:</p>
+
                             <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
+                                <li>Valuation Report from the Registered Valuer</li>
+                                <li>Board Approval</li>
+                                <li>Shareholders’ Approval</li>
+                                <li>Filing of MGT-14 with the Registrar of Companies</li>
+                                <li>Circulation of PAS-4 i.e. offer letter cum application to the identified persons</li>
+                                <li>Maintenance of PAS-5</li>
+                                <li>Receipt of money</li>
+                                <li>Board approval for allotment</li>
+                                <li>Filing of form PAS-3 with the Registrar of Companies</li>
+                                <li>Issuance of Share Certificates</li>
+                                <li>Updation in Register of members</li>
                             </ul>
-                            <h2 class="h4">3. Registrations</h2>
+
+                            <p><strong>Important things to keep in mind under private placement.</strong></p>
                             <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
+                                <li>No circulation of offer letter without filing of Form MGT-14 with the Registrar of Companies.</li>
+                                <li>Receipt of subscription money by the Company in a separate bank account in a scheduled bank and shall not be utilised for any purpose other than-
+                                    <ul>
+                                        <li>for adjustment against allotment of securities; or</li>
+                                        <li>for the repayment of monies where the company is unable to allot securities.</li>
+                                    </ul>
+                                </li>
+                                <li>The subscription money shall be paid either by cheque or demand draft or other banking channel and not by cash by every identified person willing to subscribe.</li>
+                                <li>A company shall not utilize monies raised through private placement unless allotment is made and the return of allotment is filed with the Registrar.</li>
+                                <li>The return of allotment in form PAS-3 shall be filed with the Registrar within fifteen days from the date of the allotment.</li>
                             </ul>
+                            <p>Startups go through different phases of growth. Complying with laws of land while fundraising ensures the long-term business opportunity and sustainability of the Company.</p>
+                            <p>Please feel free to reach us at : compliance@pramahlawmen.com for any clarification or query.</p>
 
 
 						</div>
@@ -397,7 +449,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

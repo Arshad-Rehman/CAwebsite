@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,42 +320,41 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/trademarks-infringement-and-its-remedies/blog-4.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">TRADEMARKS: Infringement and its remedies</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+                            <p><strong>What is a Trademark?</strong></p>
+                            <p>A trademark is a special symbol, design or name that a company/organization places on its products or for its services as a brand, that cannot be used by any other company.</p>
+                            <p><strong>Why to protect?</strong></p>
+                            <p>Companies/organizations invest a lot of money and time to create their brands and to make them popular through advertisements, marketing and sales.  Hence, brand owners must take into account the potential loss of business opportunities when others replicate their trademark and saturate the market with counterfeit products, deceiving potential consumers, resulting in loss of in revenue.</p>
+                            <p><strong>Infringement of a registered Trademark:</strong></p>
+                            <p>When someone uses an identical or similar trademark to your registered trademark for identical or similar goods and/or services which is likely to confuse the public about the source of the goods and/or services, you can claim trademark infringement.</p>
+                            <p><strong>Trademark infringement when the mark is not registered:</strong></p>
+                            <p>If someone uses your unregistered trademark without your permission, you can pursue a claim of infringement through the common law tort of passing off. To establish a successful passing off claim, you need to demonstrate ownership of such mark, possess a reputation associated with the mark, and show that this reputation has suffered harm due to the unauthorised use of the mark.</p>
+                            <p><strong>How to deal with the Trademark Infringement?</strong></p>
+                            <p>A Trademark cease and desist notice is the first step in dealing with Trademark infringement. It is a notice sent to the individual(s) or group who are using your IP (trademark) rights without your consent, and requesting them to stop and refrain from such unauthorised. The cease-and-desist notice acts as a formal request that the recipient stops (“cease”) and not continue (“desist”) this behaviour. If the recipient of the notice fails to comply with these demands, the sender should be prepared to take further legal action to stop the behaviour that is harming or interfering with the sender’s rights and abilities to conduct business. In such notice, the owner of the trademark has the option to demand the cessation of production of the infringing item or any other products violating their intellectual property rights. Additionally, the owner can request the responsible party to destroy all infringing items under their possession or control. They may also employ reasonable methods to retrieve all infringing items from the buyers and return them. Furthermore, the owner can insist the violating party to give an undertaking, pledging to abstain from producing the infringing item or any other products that violate the owner’s intellectual property rights without obtaining written consent. In case the violating party fails to adhere to the above then the aggrieved party shall be constrained to file a suit before the appropriate court of law for the remedies available for the Trademark Infringement.</p>
+
+                            <h2>Remedies available for the Trademark Infringement:</h2>
+                            <p>Two types of remedies are available in case of Infringement of Trademark through appropriate court of law:</p>
+                            <h3>1. Civil Remedy:</h3>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                                <li>an Injunction
+                                </li>
+                                <li>claim damages or accounts of profits</li>
+                                <li>destruction or erasure of infringed</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
+                            <h3>2. Criminal Remedy</h3>
                             <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
+                                <li>an imprisonment for a period which should not be less than 6 months and can be extended to 3 years;</li>
+                                <li>a fine which should not be less than 50,000 Rupees and which can be extended to 2 lakh Rupees.</li>
                             </ul>
 
+                            <p><strong>Conclusion:</strong></p>
+                            <p>Trademark or brand name is the asset of the company or individual business owner. Brand owners have the right to stop others from violating their rights as a legal owner of the registered trademark when the brand name is registered or under the common law tort of passing off when the brand name is not registered as a trademark. Legal professionals at PRAMAH LAWMEN CHAMBERS, hold expertise in guiding you to strategize and execute the right course of action against violators harming your business reputation and the goodwill of the brand name.</p>
 
 						</div>
 					</div>
@@ -397,7 +425,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,41 +320,45 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/trademark-renewal-and-legal-safeguards/trademark-renewal-and-legal-safeguards.jpg" alt="" class="img-fluid">
+							<h1 class="pt-5">Trademark Renewal and Legal Safeguards</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+
+                            <p><strong>Introduction</strong></p>
+                            <p>In the dynamic world of business, your brand is more than just a name or symbol it’s your business identity. To safeguard this identity, especially in India, where diversity meets commerce, understanding the trademark renewal is essential. Every 10 years, trademark renewal becomes a crucial step, ensuring your brand remains legally protected and recognisable.</p>
+                            <p>If owner of trademark wishes to protect its brand from being copied or misused for long, trademark renewal is the answer. It’s a simple process, but its impact on brand’s longevity and legal protection is profound. This article dive into the significance of timely renewal, its implications and offering solutions for missed renewals.</p>
+
+                            <p><strong>What is trademark renewal?</strong></p>
+                            <p>Trademark renewal is crucial to maintaining brand’s legal protection. If owner of the Trademark forgets to renew, the Registrar may remove the trademark from the register. This means serious consequences, affecting not only owner but also anyone with a license to use the trademark. Failing to renew degrades brand/mark’s legal standing and exclusivity rights.</p>
+
+                            <p>The Trademark Act is considerate. If owner misses the renewal, he has a second chance within six months. He has to submit form TM-R and pay the surcharge to keep enjoying the benefits of exclusivity and prevent others from using mark.</p>
+
+                            <h2 class="pb-3 ">Need for renewal of trademarks:</h2>
+                            <h3>Trademark renewal is vital for several reasons, offering legal rights and protection against infringement. It opens doors for profitable licensing opportunities, allowing the trademark owner to assign the mark at any time, enhancing its financial value. In essence, trademark renewal ensures cost-effective and continuous legal protection, securing your brand’s longevity and adaptability.</h3>
+
+                            <p><strong>Consequences of missing the deadline of trademark renewal</strong></p>
+                            <p>Not renewing a trademark can lead to big problems. It means losing legal protection, so others might use unprotected brand without permission. This raises the risk of confusion and legal issues. Brand could lose its unique identity over time, and might face financial losses. If the trademark isn’t renewed, rebranding might be needed, costing time and money. Missing out on profitable opportunities occurs by not being able to license the brand. There would also limited legal options if someone copies the brand. This puts the business at a disadvantage in the market, affecting the business reputation by showing a lack of commitment to protecting your brand.</p>
+
+                            <p><strong>The solution to renew the trademark which are expired</strong></p>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                                <li>a) Restoration of trademark: If missing the renewing of a trademark, restoration is an option. According to Section 25(4) of the Trademark Act of 1999, anyone can apply for the restoration of a trademark after its removal from the Trademarks Register. So, if renewal slips the mind, restoration has the situation covered!</li>
+                                <li>b) Interlocutory Petition: Interlocutory petition can be filed before removal of the Trademark from the Trademarks Register as a legal recourse for seeking permission of the Registrar to apply for renewal after the expiry of six months from the date of validity.</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
-                            <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
-                            </ul>
+
+                                <p><a href="https://indiankanoon.org/doc/133943110/" target="_blank">Motwane Private Limited vs The Registrar Of Trade Marks on 16 February, 2024</a></p>
+
+                                <ul>
+                                    <li>In the judgment, the Bombay High Court allowed the writ petition filed by “Motwane” Pvt Ltd. against the Registrar of Trade Marks. The petitioner sought relief under Article 226 of the Constitution of India regarding the non-renewal of three trademarks.</li>
+                                    <li>The court emphasises the significance of Section 25 of the Trade Marks Act, stating that the Registrar is obligated to send notice before the expiration of the last registration, outlining conditions for renewal. In the absence of such notice and considering the continuous presence of the trademarks on the register, the court holds that the petitioner retains the legal right to seek renewal.</li>
+                                    <li>As a result, the court quashed the communication stating that the petitioner’s applications cannot be renewed due to a delay of more than one year.</li>
+                                </ul>
+                                <p>Pramah Lawmen Chambers stands ready to assist in the renewal of trademarks, offering expertise in navigating the complexities of trademark law. With a keen understanding of the renewal process, our legal professionals can provide valuable guidance, ensuring your brand remains legally protected and thriving in the dynamic business landscape.</p>
+
+
 
 
 						</div>
@@ -397,7 +430,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

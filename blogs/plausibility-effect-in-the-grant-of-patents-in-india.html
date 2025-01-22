@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,42 +320,39 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/plausibility-effect-in-the-grant-of-patents-in-india/blog-9.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">Plausibility effect in the Grant of Patents in India</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+
+                            <p><strong>Introduction</strong></p>
+                            <p>In the evolving landscape of patent law, the concept of “plausibility” stands as a critical factor influencing the granting of patents. In the UK, there was a case, where a patent for a drug was revoked due to the patent’s lack of sufficient information to convince a skilled person that the drug would demonstrate any useful activity. While the term “plausibility” may not be explicitly mentioned in Indian patent laws, cases, particularly “Ischemix LLC vs The Controller,” highlight the significance of demonstrating the effectiveness or performance of inventions through data and lab results. This blog explores the dynamics of “plausibility” in the Indian patent landscape, delving into its implications, the admissibility of post-published data, and the role of disclosure standards in patentability.</p>
+
+                            <p><strong>Definition</strong></p>
+                            <p>Plausibility is the quality of appearing or seeming to be true, reasonable, or credible based on available evidence or logical reasoning. In legal and scientific contexts, it involves presenting information that is reasonably credible, demonstrating the feasibility or effectiveness of a claim, hypothesis, or invention. In the context of patent law, plausibility requires providing evidence or proof that makes the claims of an invention likely to be true or achievable, ensuring that the assertions are not merely speculative but grounded in a reasonable basis.</p>
+                            <p>For instance, an individual has an idea for a new medicine and wants to get a patent for it. A patent is like official permission to be the only one who can make and sell that medicine. Now, the word “plausible” comes into play. In the world of patents, if individual claim that his invented medicine achieves remarkable outcomes, like curing a disease with no global solution, his patent needs to show evidence that it’s believable. He can’t just say “it works”; he has to give some reasons or proof that make it likely to be true.</p>
+                            <p><strong>Exploring Plausibility Internationally and Within India</strong></p>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                              <li><a href="https://www.supremecourt.uk/cases" target="_blank">United Kingdom (UK) – Warner-Lambert Company LLC v Generics (UK) Ltd (Mylan) [2018] UKSC 56:</a> In the UK, a drug patent revoked because it lacked sufficient information to make believable to a skilled person that the drug would have any useful activity. The court emphasized the requirement to present scientific evidence supporting the credibility (scientific reason) of the claim.</li>
+                              <li><a href="https://www.epo.org/en/boards-of-appeal/decisions/t020609eu1" target="_blank">European Patent Office (EPO) – Decision T 609/02 (Dasatinib-cancer medicine):</a> This case concerned the plausibility of an alleged presumed medicine effect in the context of inventive step. The EPO’s Technical Board of Appeal discussed the requirement for a plausible disclosure of the technical effect claimed in the patent and its relevance to inventive step.</li>
+                              <li><a href="https://www.hcourt.gov.au/cases/case_s1-2013" target="_blank">Australia – Apotex Pty Ltd v Sanofi-Aventis Australia Pty Ltd [2013] FCAFC 50:</a>In this Australian Federal Court of Appeal case, the issue of plausibility was discussed in relation to sufficiency of disclosure. The court considered whether the patent specification plausibly disclosed the claimed therapeutic effect.</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
+                            <p>Let’s delve into the landscape of patent consideration in India. While the term “plausibility” is not mentioned in Indian patent laws, it doesn’t mean India is neglecting the idea. The issue of ‘plausibility’ appeared to be a subject of discussion in the case of “<a href="https://indiankanoon.org/doc/169158118/" target="_blank">Ischemix LLC vs The Controller</a>,” Delhi High Court of India asserted that the effectiveness or performance of the invention should be demonstrated through data and lab results to prove that invention works in a patent application. If more information is added later, it should be related to the original claims and shared before the final discussion with the Patent Office.</p>
+
+                            <p><strong>Disclosure Standard the Core of Plausibility in Indian Patent Law</strong></p>
+                            <p>When an individual seeking a patent for ground-breaking invention, it’s crucial to adhere to the Full-and-Particular Disclosure Standard, often considered the root of plausibility. However, Indian patent law does have provisions related to sufficiency of disclosure and inventive step, which are concepts often associated with plausibility.</p>
                             <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
+                              <li>Section 10 of Indian Patent Act,1970 – Contents of Complete Specification: According to Section 10 of the Indian Patents Act, when you’re applying for a patent, the complete specification – the detailed document explaining your invention – must provide comprehensive information. It should enable someone skilled in the relevant field to understand how invention works and what makes it unique. This includes the description of the invention, its operation, and the method to use or make it. In essence, Section 10 emphasizes the importance of a thorough and clear disclosure in your patent application. It ensures that invention is described in a way that leaves no ambiguity about its functionality and distinctive features.</li>
+                              <li>Section 3(d) of Indian Patent Act, 1970 – Patentability Criteria for New Forms: Section 3(d) sets forth specific criteria for patenting new versions or forms of known substances. If you’re seeking a patent for a modification or derivative of an already known substance, Section 3(d) mandates that the new version must demonstrate a significant enhancement in efficacy. In simpler terms, the modification should show a marked improvement in how the substance works.</li>
                             </ul>
 
+                            <p><strong>Conclusion</strong></p>
+                            <p>The plausibility requirement in granting patents in India serves as a crucial barrier aimed at ensuring the legitimacy and practicality of patented inventions. This requirement not only enhances the quality of granted patents but also guards against the issuance of overly hypothetical or unproven patents.</p>
+                            <p>In the context of Indian patent law, the plausibility barrier contributes to maintaining a balance between fostering innovation and preventing the grant of patents based on mere assertions without a credible foundation. This safeguards the public interest by promoting inventions that are not only novel but also possess a reasonable likelihood of success in practical applications.</p>
+                            <p>In the complex world of patents, “plausibility” is key. ‘Pramah Lawmen Chamber’ stands as your strategic partner, ensuring your patent application navigates this challenge seamlessly. Our expert team create strong applications, aligning with evolving legal standards. With ‘Pramah’ by your side, elevate your patents and prevent rejection risks. Partner for patent success!</p>
 
 						</div>
 					</div>
@@ -397,7 +423,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

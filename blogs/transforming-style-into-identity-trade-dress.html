@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,42 +320,47 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
-                            <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
-                            </ul>
-                            <h2 class="h4">2. Policies</h2>
-                            <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
-                            </ul>
+                            <img src="/assets/images/blogs/transforming-style-into-identity-trade-dress/blog-8.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">Transforming Style into Identity: Trade Dress</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+                            <p><strong>Transforming Style into Identity: Trade Dress</strong></p>
 
+                            <p><strong> Introduction: Trade Dress</strong></p>
+                            <p>Trade Dress is the look and feel of a product or service that identifies and distinguishes the sources of the product or service. It is an important part of Intellectual property law because it helps protect the unique packaging and appearance of a product. It is to protect the look and feel of a product and distinguishes it from other similar products. It includes the various elements (such as the design and shape of materials) used to package a product or services.</p>
+
+                            <p><strong>Criteria for Trade Dress Protection:</strong></p>
+                            <p>A “Trademark” provides legal protection for a logo, symbol, phrase, word, name, or design used to show the manufacturer of a product. “Trade Dress” refers to the way a product is “dressed” to go the market.</p>
+                            <p>Trade Dress can serve as a company’s trademark or brand. Trade dress is inherently distinctive if it is a design, shape, or combination of elements so unique, unusual or unexpected that is automatically perceived by consumers as an origin.</p>
+
+                            <p><strong>Requirements for Trade Dress Registration:</strong></p>
+                            <p>The requirements for trade dress Registration of a product are as follows-</p>
+                            <ul>
+                                <li>It must be graphically represented.</li>
+                                <li>It must be distinct from others.</li>
+                                <li>It must be used in relation to goods or services from others.</li>
+                                <li>It must be in a printed form.</li>
+                            </ul>
+                            <p>Customers buy products because they like them. It is looks of the product that guides the customers to buy their preferred product. Even educated customers find difficulties in differentiating two similar looking products.</p>
+                            <p>Distinctiveness is also a key aspect under Trademark and Trade Dress as well, which means a trade dress must be easily recognised by the consumers. Trademark protection is given for both registered and unregistered trademark, this is also same as to trade dress. Trade dress may include the design of a cover page of a magazine, the visual appearance of a lamp, design of sports shoes, etc. However, a generic idea and a creative concept cannot be treated as a trade dress. This shows about the functionality of a trade dress which is recognised under Indian Trademark Law.</p>
+
+                            <p><strong>Enforcement of Trade Dress Rights:</strong></p>
+                            <p>Trade Dress protection in India is obtained by a person or company must register their trade dress with the Trade Marks Office of the Indian Intellectual Property Office. Once registered, the trade dress is protected for a period of 10 years, after which it can be renewed.</p>
+                            <p>The Act provides legal protection for trade dress that is distinctive and capable of distinguishing the goods or services of one person from those of another. By this it means that trade dress must be unique and not functional or essential to the use of goods and services. If trade dress is meets these criteria, it can be protected.</p>
+                            <p><strong>Leading Case Laws:</strong></p>
+                            <p><strong>1. Pernod Ricard India Pvt Ltd and anr. vs Karanveer Singh Chhabra</strong></p>
+                            <p>In a trademark infringement case involving ‘Blender’s Pride’ and ‘London Pride’ whiskey, visually presented bottles of both brands to the Supreme Court of India. This was done to help the court to clarify if the bottles looked too much similar, and could create confusion between customers. Showing the bottles helped the court better understanding trademark or trade-dress.</p>
+                            <p>The Supreme Court of India, asked JK Enterprises, the makers of London Pride whisky if they are willing to change their trade dress, which is caught in intellectual property rights litigation with Pernod Ricard India’s Blenders Pride whisky.</p>
+                            <p><i>Pernod Ricard India Pvt Ltd and anr. vs Karanveer Singh Chhabra</i></p>
+
+                            <p><strong>2. TTK Prestige Ltd. v. Arjun Ram, 2023</strong></p>
+                            <p>In this Case, the Delhi High Court found that the defendants’ trade dress closely resembled the plaintiff’s, with nearly identical features such as white letters on pink background with a black swirl/line. This similarity could create confusion among consumers. Since the defendants copied the plaintiff’s trade dress and design, they cannot question the plaintiff’s reputation.</p>
+                            <p>Thus, the Court granted an injunction against the defendants, preventing them from selling pressure cookers with the infringing design or similar trade dress. However, the defendants can still use their mark “PARISTONE” with a different trade dress on pressure cookers that don’t copy the plaintiff’s design.</p>
+                            <p><i>TTK Prestige Ltd. v. Arjun Ram, 2023</i></p>
+                            <p>Pramah Lawmen Chambers is a full-service law firm with extensive expertise in Intellectual Property Law (IP Law), Corporate and Commercial Law services set up for provisions of professional services to the clientele at relatively pocket-friendly rates. We handle registration to infringement matters/litigation of conventional and non-conventional patents, trademarks, copyrights, and design portfolios for local and international clients alike. With us, businesses can ensure that their brand is protected and their legal rights are secured.</p>
 
 						</div>
 					</div>
@@ -397,7 +431,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

@@ -13,7 +13,7 @@
 	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 	<link href="assets/css/flexslider.css" rel="stylesheet">
-	<link href="../assets/css/style.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
 	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
 <!-- FONTS -->
@@ -30,6 +30,11 @@
 } p {
     color: #838383;
 }
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
 ul li {
     font-size: 1.2rem;
     line-height: 28px;
@@ -42,7 +47,7 @@ ul li {
     text-align: center;
     background-size: cover;
     background-position: center;
-    background-image: url('../assets/images/homepage/steptodown-2.jpg');
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
 }
 .small-index {
     background-color: #f8f8f8;
@@ -163,16 +168,6 @@ ul li {
     padding: 45px 35px;
     margin-top: 3rem;
 }
-.section-title h1 {
-    font-size: 40px;
-    font-size: 2.5rem;
-    margin: 0 0 0.7em;
-}
-.section-title h2 {
-    font-size: 40px;
-    font-size: 1.875rem !important;
-    margin: 0 0 0.7em;
-}
 .contact-wrapper h3{
     font-size: 22px;
     margin: 0 0 1em;
@@ -206,6 +201,36 @@ ul li {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
 	@media only screen and (min-width: 768px) {
     .about-banner {
         padding: 3.5rem 0;
@@ -216,6 +241,10 @@ ul li {
         padding: 10rem 0;
         background-position: center top;
     }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
 }
 </style>
 </head>
@@ -225,8 +254,8 @@ ul li {
 		<div class="row header-top">
 			<div class="container">
 				<div class="site-logo" style="">
-					<a href="../">
-				  <img src="../assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
 				</a>
 			  </div>
 			</div>
@@ -245,14 +274,14 @@ ul li {
 									SERVICES
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
-									<li><a class="dropdown-item" href="../service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
-									<li><a class="dropdown-item" href="../service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
-									<li><a class="dropdown-item" href="../service/secretarial-compliance.html">Secretarial Compliance</a></li>
-									<li><a class="dropdown-item" href="../service/startup-advisory.html">Startup Advisory</a></li>
-									<li><a class="dropdown-item" href="../service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
-									<li><a class="dropdown-item" href="../service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
-									<li><a class="dropdown-item" href="../service/paralegal-services.html">Paralegal Services</a></li>
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
 								</ul>
 							</li>
               <li class="nav-item dropdown">
@@ -260,15 +289,15 @@ ul li {
 									Legal Insight
 								</a>
 								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-									<li><a class="dropdown-item" href="../newsletter.html">NEWS</a></li>
-									<li><a class="dropdown-item" href="../blogs.html">BLOGS</a></li>
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
 								</ul>
 							</li>
-              <li class="nav-item"><a class="nav-link" href="../client-board.html">Client Board</a></li>
-              <li class="nav-item"><a class="nav-link" href="../contact-us.html">CONTACT</a></li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
 						</ul>
 					</div>
-					<a href="../contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
 				</nav>
 			</div>
 		</div>
@@ -277,7 +306,7 @@ ul li {
 			<div class="container">
 			  <div class="row">
 				<div class="col-md-12">
-				  <h1> Service</h1>
+				  <h1>Blog</h1>
 				</div>
 
 			  </div>
@@ -291,42 +320,77 @@ ul li {
 				<div class="row">
 					<div class="col-lg-8">
 						<div class="section-title  section-title-6742c7ba2963f ">
-                            <img src="../assets/images/secretarial-compliance/startup-company.jpg" alt="" class="img-fluid">
-							<h1 class="pt-5">Miscellaneous legal services</h1>
-                            <p>We specialize in providing meticulous documentation and steadfast representation to safeguard your business interests. Our comprehensive services span across notices, policies, and registrations, ensuring that your legal needs are met with precision and expertise.</p>
-                            <h2 class="h4">1. Legal Notices</h2>
+                            <img src="/assets/images/blogs/sc-denies-same-sex-marriage-recognition-unions-entrusted-to-committee-for-queer-rights/lgbtqq-768x586.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">SC Denies Same-Sex Marriage Recognition: Unions Entrusted to Committee for Queer Rights</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+
+                            <p>CJI Chandrachud-headed bench and also the bench comprises Justices SK Kaul, SR Bhat, Hima Kohli, and PS Narasimha  delivered its verdict on same sex marriage. All five judges concur that there is no fundamental right to marry, and the court, through a majority verdict, rules against legalising same-sex marriage.</p>
+                            <p><strong>KEY HIGHLIGHTS:</strong></p>
                             <ul>
-                                <li>Issuance</li>
-                                <li>Reply</li>
-                                <li>Representation</li>
+                                <li>Legislative Responsibility: The court leaves the decision on same-sex marriage to Parliament, emphasizing that it is the legislative body’s responsibility to formulate laws on this matter.</li>
+                                <li>State Obligation: The state is directed to facilitate LGBTQ individuals in exercising their rights, acknowledging that queer couples are free to engage in intimate associations.</li>
+                                <li>Dynamic Nature of Marriage: The court asserts that marriage is not a static concept and highlights that it is within the purview of Parliament to draft laws regulating such marriage.</li>
+                                <li>Constitutional Grounding: The right to enter into a union is grounded in Articles 19, with the court recognizing that choosing a life partner is an integral part of an individual’s life. This right extends to the core of rights under Article 21, ensuring that queer persons are not subjected to discrimination.</li>
+                                <li>Committee Formation: The central government is instructed to establish a committee under the Cabinet Secretary, comprising experts. This committee is tasked with conducting extensive consultations and considering specific aspects:</li>
                             </ul>
-                            <h2 class="h4">2. Policies</h2>
                             <ul>
-                               <li>Code of Conduct</li> 
-                                <li>HR policy</li>
-                                <li>Corporate governance policy</li>
-                                <li>Equal employment opportunity (EEO) Policy</li>
-                                <li>Anti-Harassment policy</li>
-                                <li>Workplace safety and health Policy</li>
-                                <li>Information security policy</li>
-                                <li>Privacy policy</li>
-                                <li>Data protection</li>
-                                <li>Social media policy</li>
-                                <li>Remote work policy</li>
-                                <li>Expense reimbursement policy</li>
-                            </ul>
-                            <h2 class="h4">3. Registrations</h2>
-                            <ul>
-                                <li>Company formation</li>
-                                <li>Formation of a subsidiary of a Company incorporated outside India</li>
-                                <li>MSME registration</li>
-                                <li>GST Registration</li>
-                                <li>Section 8 company registration</li>
-                                <li>One person company</li>
-                                <li>LLP Registration</li>
-                                <li>Partnership Formation</li>
+                                <li>Enabling queer persons to be recognized as a common entity for ration cards.</li>
+                                <li>Facilitating joint accounts for queer couples.</li>
+                                <li>Addressing issues related to last rites.</li>
+                                <li>Formulating provisions for succession and pension for queer individuals etc.
+                                </li>
                             </ul>
 
+
+
+
+
+
+
+
+
+                            <p>Employee Stock Options Scheme/Plan is a scheme approved by the Company for the benefit of the employees at large. ESOPs are an incentive to motivate key employees, retain intellectual capital, attract new talent and create wealth for the Employees who are performing services for the Company and by motivating such Employees to contribute to the growth and profitability of the Company. We have always heard that the peon, office boy etc. becomes a millionaire. It is always because of employee stock option granted to them at free of cost or concessional rate and later on converted into shares thereby exercise of option by the employees.</p>
+                            <p>So lets us understand all about ESOP other than listed Company in brief:</p>
+
+                            <p><strong>What is ESOP:</strong></p>
+                            <p>ESOP means the option granted to an identified employee, which gives such employee the right to purchase or subscribe at a future date the shares underlying the option at a predetermined price or predetermined formula. ESOPs can be administered and managed either directly by the Company or through Employee Welfare Trust i.e. Trust Route and Non Trust Route depending upon requirement of the Company.</p>
+
+                            <p><strong>Pricing of ESOP:</strong></p>
+                            <p>ESOPs are always exercisable by the employees at a predetermined price or formula. This is determined in a way that the shares are given to the employees at free of cost or concessional rate so that the employee can purchase the shares easily.</p>
+
+                            <p><strong>Employees:</strong></p>
+                            <p>Employees are defined under the provisions of the Companies Act, 2013 that who can be covered under the ESOP. However, it is always the discretion of the Board/Management/Trust or the delegated Committees to frame the eligibility criteria for granting the ESOPs.</p>
+
+                            <p><strong>Why ESOPs are given:</strong></p>
+                            <p>There are a number of factors and may vary company to company to granting ESOPs to their employees. The ESOPs are very commonly practiced by the start-ups because at the initial stage, they are having a financial crunch and the same lead to restrict them to give huge salaries to their employees. Hence, by granting ESOPs to the employees of the Company, they make the employees of the Company to share the prosperity of the Company in future dates when the start up will grow.</p>
+
+                            <p><strong>Vesting Schedule and Date:</strong></p>
+                            <p>When the stock options are granted to employees, it vests in the employees at a later date to exercise the option to buy the shares of the Company. Generally, the gap between the grant of option and vesting of option is of at least one year.  The vesting of options is designed in a way by the Company that it will vest over the period of 2 years, 3 years or 4 years. This period of 2 years, 3 years or 4 years is called vesting schedule and the exact date on which the part of grant stock options vest is called the vesting date.</p>
+                            <p>Now, let us understand this with the help of an example:</p>
+                            <p>An employee has been granted 100 stock options by the Company on 01/09/2023. Here 01/09/2023 is the grant date.</p>
+                            <p>Now, in the given case, the vesting of shares shall start at the expiry of one year from 01/09/2024. The Company has a plan of Vesting schedule over a period of 4 years i.e. 25%  each year at the completion of one year from the last vesting date. The first 25% shall vest on 01/09/2024. It means the vesting of shares shall be as follows:</p>
+
+                            <p>25 stock options – 01/09/2024</p>
+                            <p>25 stock options – 01/09/2025</p>
+                            <p>25 stock options – 01/09/2026</p>
+                            <p>25 stock options – 01/09/2027</p>
+
+                            <p><strong>Exercise of Option:</strong></p>
+                            <p>When the stock options vest in the employees, the employees are eligible to exercise the option means to apply for conversion of stock options into the shares. The ESOP scheme defines the Exercise period means the period in which the option can be exercised by the employees.  If the options are not exercised by the employees during the exercise period, it will lapse.</p>
+                            <p>It is to be noted that ESOPs are an option given to the employees, the employees are not obligated to buy the ESOP shares. Once the options are exercised by the employees, the employees will get the shares against the option granted to him/her.</p>
+
+                            <p><strong>Exit Option:</strong></p>
+                            <p>Exit option differs Company to company. The exit options are provided in the Scheme approved by the Company. There may be certain lock in period w.r.t. transfer of shares by the employees. The shares may be bought back by the promoters, company, investors or by any third party.</p>
+
+                            <p><strong>Taxation:</strong></p>
+                            <p>The taxation of ESOP is quite complex. It is taxed twice step wise. First instance is when the employee exercises the option to buy the shares at the exercise price. The second instance is when the shares are sold by the employees.</p>
+                            <p>1st Instance – When the options under the ESOPs are  exercised, the difference between the exercise price and the Fair Market Value of the shares determined by the Merchant Banker is treated as perquisite in the hands of the employee and taxed accordingly. The Company is required to deduct TDS on the employee exercising the option, treating the same as perquisite.</p>
+                            <p>2nd Instance – When the employee sells the shares. The transaction of selling off the shares will attract capital gain. The gains can be either long term or short term depending on the period for which the employee has held the shares.</p>
+                            <p>Hope this Article on ESOP helps you to understand the complex ESOP structure in India. For any query may contact at info@pramahlawmen.com.</p>
 
 						</div>
 					</div>
@@ -397,7 +461,7 @@ ul li {
 				<div class="container p-4">
 					<div class="row">
 						<div class="col-md-4 col-sm-6 mb-4">
-							<img src="../assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
 							<ul class="list-unstyled">
 								<li><a href="#">Email: info@pramahlawmen.com</a></li>
 								<li><a href="#">Phone: + 91 7600 675 676</a></li>

@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html class="load-full-screen">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+
+	<!-- STYLES -->
+	<link href="assets/css/animate.min.css" rel="stylesheet">
+	<link href="assets/css/bootstrap-select.min.css" rel="stylesheet">
+	<link href="assets/css/owl.carousel.css" rel="stylesheet">
+	<link href="assets/css/owl-carousel-theme.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/css/flexslider.css" rel="stylesheet">
+	<link href="/assets/css/style.css" rel="stylesheet">
+	<!-- <link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet"> -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="preload" as="style" onload='this.rel="stylesheet"'>
+<!-- FONTS -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+ 
+<link rel="preload" href="./assets/css/swiper-bundle.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="./assets/css/swiper-bundle.min.css"></noscript>
+<style>
+    h1, h2, h3, h4, h5, h6 {
+    font-family: "Playfair Display", serif;
+    color: #282e3f;
+} p {
+    color: #838383;
+}
+.service-single-section .service-single-content h1 {
+    font-size: 40px;
+    font-size: 2.5rem;
+    margin: 0 0 0.7em;
+}
+ul li {
+    font-size: 1.2rem;
+    line-height: 28px;
+    color: #838383;
+}
+	.about-banner {
+    padding: 2.5rem 0;
+    background-color: rgba(25, 25, 25, 0.7);
+    color: #fff;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/assets/images/homepage/steptodown-2.jpg');
+}
+.small-index {
+    background-color: #f8f8f8;
+    padding: 45px 35px;
+}
+.small-index ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.small-index ul li{
+    font-size: 1.125rem;
+    color: #838383;
+    margin-top: 15px;
+    padding-left: 15px;
+    position: relative;
+}
+.small-index ul li:before {
+    content: "-";
+    color: #bbb;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.about-banner h1{
+	font-size: 3.75rem;
+    color: #ffffff;
+}
+.contact-sec{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.form-group.input-bottom-border input{
+    background-color: #f8f8f8;
+    height: 55px;
+    padding: 6px 15px;
+    border: 2px solid #f8f8f8;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+	font-family: "Lato", sans-serif;
+}
+.input-bottom-border .form-control{
+    background-color: #f8f8f8;
+	font-family: "Lato", sans-serif;
+}
+.contact-form {
+    padding: 0;
+}
+.contact-detail-wrapper{
+	background-color: rgba(174, 160, 118, 0.85);
+    padding: 2rem 3rem;
+	text-align: left;
+}
+.contact-detail-wrapper p{
+	color: #fff;
+}
+.contact-detail-wrapper ul{
+    list-style: none;
+    padding-left: 0px;
+}
+.contact-detail-wrapper ul li{
+	font-family: "Lato", sans-serif;
+    position: relative;
+    padding-left: 35px;
+    line-height: 1.6em;
+	color: #ffffff;
+	font-size: 1rem;
+	padding-bottom: 1rem;
+}
+.contact-detail-wrapper ul li i{
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.contact-detail-wrapper ul li a{
+	color: #ffffff;
+}
+.contact-form .form-control {
+    height: 40px;
+    border-radius: 0px;
+    margin: 0px 0px 13px;
+}
+.block-title {
+    font-size: 2rem;
+    line-height: 1.1;
+    font-weight: 500;
+    margin-bottom: 0rem;
+    margin-bottom: 2rem;
+}
+.social-media{
+	width: 33.33%;
+    float: left;
+    text-align: center;
+    padding: 30px 10px;
+    border: 1px solid #474a4c;
+    margin-left: -1px;
+}
+.social-media-wrapper{
+	display: flex;
+	flex-wrap: wrap;
+}
+.social-media-wrapper a {
+    font-size: 20px;
+    font-size: 1.25rem;
+    color: #cacaca;
+}
+.social-media-sec {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.contact-wrapper{
+    background-color: #f8f8f8;
+    padding: 45px 35px;
+    margin-top: 3rem;
+}
+.contact-wrapper h3{
+    font-size: 22px;
+    margin: 0 0 1em;
+    padding-right: 2.2em;
+    position: relative;
+    display: inline-block;
+}
+.input-bottom-border .form-control {
+    /* background-color: rgba(40, 46, 63, 0.7); */
+    height: 50px;
+    padding: 6px 15px;
+    /* color: #fff !important; */
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+
+.form-group.input-bottom-border input {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.section-title span {
+    text-transform: none;
+}
+.banner-date {
+    background-color: #f8f8f8;
+    display: inline-flex;
+    padding: 5px;
+    overflow: hidden;
+    margin: 2rem 0;
+}
+.banner-date span{
+padding-right: 10px;
+padding-left: 10px;
+margin-top: 5px;
+margin-bottom: 5px;
+    border-right: 1px solid; 
+    font-size: 1rem;
+    color: #282e3f;
+}
+.border-text {
+    border-right: none !important;
+}
+a{
+    color: #c1b696;
+    text-decoration: underline;
+}
+.section-title h3, .section-title-s2 h3{
+        font-weight: 300;
+        font-size: 24px;
+    }
+	@media only screen and (min-width: 768px) {
+    .about-banner {
+        padding: 3.5rem 0;
+    }
+}
+@media only screen and (min-width: 1200px) {
+    .about-banner {
+        padding: 10rem 0;
+        background-position: center top;
+    }
+    .section-title h2, .section-title-s2 h2 {
+        font-weight: 500;
+        font-size: 24px;
+    }
+}
+</style>
+</head>
+<body class="load-full-screen">
+	<!-- BEGIN: SITE-WRAPPER -->
+	<div class="site-wrapper">
+		<div class="row header-top">
+			<div class="container">
+				<div class="site-logo" style="">
+					<a href="/">
+				  <img src="/assets/images/homepage/logo.png" alt="Pramahlawmen logo">
+				</a>
+			  </div>
+			</div>
+		</div>
+		<div class="row light-menu">
+			<div class="container">
+				<nav class="navbar navbar-expand-lg navbar-light bg-light" id="vidzy-navbar">
+					<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarNav">
+						<ul class="navbar-nav">
+							<li class="nav-item"><a class="nav-link" href="../">About</a></li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									SERVICES
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="/service/transaction-advisory-services.html">Transaction Advisory Services</a></li>
+									<li><a class="dropdown-item" href="/service/contract-lifecycle-management.html">Contract Lifecycle Management</a></li>
+									<li><a class="dropdown-item" href="/service/intellectual-property-portfolio-management.html">Intellectual Property Portfolio Management</a></li>
+									<li><a class="dropdown-item" href="/service/secretarial-compliance.html">Secretarial Compliance</a></li>
+									<li><a class="dropdown-item" href="/service/startup-advisory.html">Startup Advisory</a></li>
+									<li><a class="dropdown-item" href="/service/miscellaneous-legal-services.html">Miscellaneous  legal services</a></li>
+									<li><a class="dropdown-item" href="/service/media-and-entertainment-law.html">Media and Entertainment Law</a></li>
+									<li><a class="dropdown-item" href="/service/paralegal-services.html">Paralegal Services</a></li>
+								</ul>
+							</li>
+              <li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+									Legal Insight
+								</a>
+								<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<li><a class="dropdown-item" href="/newsletter.html">NEWS</a></li>
+									<li><a class="dropdown-item" href="/blogs.html">BLOGS</a></li>
+								</ul>
+							</li>
+							<li class="nav-item"><a class="nav-link" href="/client-board.html">Client Board</a></li>
+							<li class="nav-item"><a class="nav-link" href="/contact-us.html">CONTACT</a></li>
+						</ul>
+					</div>
+					<a href="/contact-us.html" class="btn btn-primary contact-us-btn">Book Consultation</a>
+				</nav>
+			</div>
+		</div>
+
+		<section class="about-banner">
+			<div class="container">
+			  <div class="row">
+				<div class="col-md-12">
+				  <h1>Blog</h1>
+				</div>
+
+			  </div>
+			</div>
+		  </section>
+
+
+
+		  <section class="social-media-sec">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8">
+						<div class="section-title  section-title-6742c7ba2963f ">
+                            <img src="/assets/images/blogs/well-known-trademarks/blog-7.jpg" alt="" class="img-fluid">
+							              <h1 class="pt-5">Transforming Securities: Dematerialization of Shares in Non-Small Private Limited Companies</h1>
+                            <div class="banner-date">
+                                <span>by Admin</span>
+                                <span>Jun 6</span>
+                                <span class="border-text">Comments (0)</span>
+                            </div>
+                            <p><strong>Overview of mandatory demat in Private Limited Companies: </strong></p>
+                            <p>In the dynamic world of finance, where transactions are increasingly digital, Demat account play a crucial role in simplifying the process of holding and trading securities such as stocks, bonds, government securities, and mutual fund units in digital format. A Demat account is an essential component for investors in the stock market, allowing for the electronic holding of shares and other financial instruments. The main purpose of a Demat account is to eliminate the need for physical share certificates and facilitate easy and secure trading. This article aims to shed light on the significance and functioning of Demat accounts in the realm of financial management.</p>
+                            <p>In a recent embracing change by the Ministry of Corporate Affairs (MCA) has revised regulations impacting private limited companies’ securities. Previously, only public companies were required to facilitates shares in Demat form to its shareholders. However, a pivotal notification, the “Companies (Prospectus and Allotment of Securities) Second Amendment Rules, 2023,” issued on October 27, 2023, extends this requirement to Non-Small Private Limited Companies. These companies must dematerialize existing securities and ensure all future issuances or transfers occur exclusively in Demat form. The change aims to enhance transparency, protect investor interests, and fortify corporate governance.</p>
+                            <p><strong>Regulatory mandate and compliance framework:</strong></p>
+
+                            <p>Companies Act, 2013 – Section 29: the provision outlines issue related to the allotment of securities by companies. It empowers the central government to prescribe the manner and conditions for the issuance and transfer of securities.</p>
+                            <p>Companies (Prospectus and Allotment of Securities) Rules, 2014 – Rule 9: Rule 9 of the Companies (Prospectus and Allotment of Securities) Rules, 2014, provides specific regulations regarding the manner in which securities are to be dealt with. It mandates the dematerialization of securities for certain categories of companies.</p>
+                            <p>Notification by Ministry of Corporate Affairs (MCA): The Ministry of Corporate Affairs (MCA) issued notifications to enforce the provisions of the Companies Act, 2013 and its rules. Notably, Rule 9B of the Companies (Prospectus and Allotment of Securities) Second Amendment Rules, 2023, issued by the MCA on October 27, 2023, extend the mandate of dematerialization to Non-Small Private Limited Companies.</p>
+                            <p>Non-Small Private Limited Companies: According to Section 2(85) of the Companies Act, 2013 (the Act), a small company, as defined by the Act, small company means a company, other than a public company, —</p>
+
+                            <ul>
+                                <li>(i) <a href="https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/acts.html?act=NTk2MQ==" target="_blank">paid-up share capital</a> of which does not exceed fifty lakh rupees or such higher amount <a href="https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/acts.html?act=NTk2MQ==" target="_blank">as may be prescribed </a> which shall not be more than ten crore rupees; and</li>
+                                <li>(ii) <a href="https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/acts.html?act=NTk2MQ==" target="_blank">turnover</a> of which as per profit and loss account for the immediately preceding financial year does not exceed two crore rupees or such higher amount <a href="https://www.mca.gov.in/content/mca/global/en/acts-rules/ebooks/acts.html?act=NTk2MQ==" target="_blank">as may be prescribed</a> which shall not be more than one hundred crore rupees:</li>
+                            </ul>
+
+                            <p>Provided that nothing in this clause shall apply to—</p>
+                            <ul>
+                                <li>(A) a holding company or a subsidiary company;</li>
+                                <li>(B) a company registered under section 8; or</li>
+                                <li>(C) a company or body corporate governed by any special Act;</li>
+                            </ul>
+                            <p>The company is falling under this provision shall be treated as small company and exempted from complying with this rule.</p>
+                            <p>Means the Company other than small companies as per the abovesaid definition is required to comply with the Rule 9B of the Companies (Prospectus and Allotment of Securities) Second Amendment Rules, 2023, issued by the MCA on October 27, 2023.</p>
+                            <p>Compliance Timeline: Private limited companies falling under the specified categories are required to comply with the mandatory dematerialization mandate within the stipulated timeline. As per the amendment rules, the rule is effective from October 27, 2023. However there is a gestation period till October 1, 2024 to every non-small company in order to comply with this rule.</p>
+                            <p>Process of Dematerialization: Private limited companies must initiate the dematerialization process by coordinating with authorized Depository Participants (DPs). DPs play a crucial role in converting physical share certificates into electronic or dematerialized form.</p>
+                            <p>Issuance and Transfer in Demat Form: Post the dematerialization of existing securities, private limited companies must ensure that any future issuance or transfer of securities is exclusively conducted in Demat form, in line with the regulatory requirements.</p>
+                            <p><strong>Rationale Behind the Mandate:</strong></p>
+                            <p>Paperless Transactions: Demat accounts eliminate the need for physical paperwork, reducing the chances of errors and contributing to a more environmentally friendly approach.</p>
+                            <p>Quick and Secure Transactions: The electronic nature of Demat accounts ensures speedy and secure transactions, reducing the time between trade execution and the transfer of securities.</p>
+                            <p>Reduced Risk: The risk of loss, theft, or damage to physical share certificates is eliminated through dematerialization. Additionally, the electronic transfer of securities minimizes the risk of fraud associated with paper-based transactions.</p>
+                            <p>Less Dispute and Corruption: Demat accounts contribute to a reduction in disputes and corruption in financial transactions. The transparency of electronic records minimizes the scope for discrepancies, providing a clear and traceable trail of transactions.</p>
+                            <p>Convenience: Investors can manage their investment portfolios and execute trades with ease through online access to their Demat accounts. This convenience is particularly valuable in today’s fast-paced financial markets.</p>
+
+                            <p><strong>Impact of Mandatory Demat on Shareholders and Stakeholders:</strong></p>
+                            <p>The move to mandatory dematerialization of shares in non-small private limited companies has several positive effects:</p>
+                            <ul>
+                                <li>For shareholders, the shift to clearer and traceable digital records not only minimizes the risk of errors and fraud but also provides a more secure and trustworthy environment for managing investments.</li>
+                                <li>Investors stand to gain streamlining transactions with faster and smoother processes through electronic transfers and settlements. Enhance the overall credibility of the market, making it more appealing to a wide spectrum of investors, both institutional and retail, thereby fostering a more robust and trustworthy investment landscape.</li>
+                                <li>For stakeholders, it ensures regulatory compliance, aligning companies with standards, fostering a culture of governance, a company’s image, making it more appealing to potential investors opening and doors to new opportunities.</li>
+                            </ul>
+                            <p><strong>Role of Depository Participants (DPs):</strong></p>
+                            <p>Depository Participants (DPs) play a central role in the dematerialization process. They initiate the conversion of physical share certificates into electronic form, ensuring compliance with regulatory standards. DPs facilitate smooth transitions, maintain records, and grant shareholders access to their Demat accounts. Additionally, they act as intermediaries with regulatory bodies, educate stakeholders, and continue to facilitate future transactions in electronic formats, contributing to the efficiency and transparency of the dematerialization process.</p>
+
+                            <p><strong>Challenges and Mitigation Strategies:</strong></p>
+                            <p>Implementing mandatory dematerialization in private limited companies may encounter challenges that require strategic solutions. Stakeholder resistance and lack of awareness can be mitigated through comprehensive education programs. Technical barriers for shareholders can be addressed by offering user-friendly interfaces and technical support. Simplifying documentation processes and providing assistance can alleviate related challenges. To manage perceived costs, companies should communicate long-term savings and explore cost-minimization options. Cybersecurity concerns can be tackled by implementing robust security measures and educating stakeholders on cybersecurity best practices. Meeting compliance deadlines requires clear communication and internal processes for timely adherence. Integration with existing systems may pose challenges, necessitating thorough assessments and technological adaptations. Unwillingness to embrace technology can be addressed through training programs and incentives. Continuous legal and regulatory compliance requires staying informed, collaborating with legal experts, and conducting regular internal audits. By proactively addressing these challenges, companies can navigate the dematerialization process smoothly, ensuring a successful transition and realizing the long-term benefits of a digitized shareholding system.</p>
+
+                            <p><strong>Legal guidance in mandatory Demat compliance: Ensuring smooth governance through regulatory</strong></p>
+                            <p>Legal professionals are key players in ensuring shareholders understand the mandatory dematerialization requirement for private limited companies. They interpret complex regulations, guide companies on compliance, and communicate legal changes to shareholders promptly. Legal experts address shareholder concerns, oversee documentation, and conduct compliance audits. They organize awareness programs, mitigate risks, and advocate for fair treatment during the dematerialization process. By navigating legal complexities and promoting legal literacy, these professionals contribute to a transparent and legally sound transition, ensuring both companies and shareholders comply with the legal framework seamlessly.</p>
+                            <p><strong>Future outlook and industry trends:</strong></p>
+                            <p>As private limited companies in India undergo the mandatory dematerialization of shares, it’s important to look ahead and consider the future implications and emerging trends that this transformative process may bring. One significant trend is the broader digital transformation in corporate governance, where advanced technologies enhance transparency and communication with shareholders. The shift to mandatory demat is expected to boost investor confidence, attracting a wider range of investors and potentially driving market expansion. Additionally, there’s an anticipation of increased regulatory stringency to ensure the integrity of dematerialized systems, and companies should stay agile in adapting to evolving compliance requirements. The move toward dematerialization also aligns with global sustainability trends, encouraging companies to embrace eco-friendly practices. This shift may drive innovations in shareholder services, including digital platforms and mobile applications for more efficient share management. As shareholders become more active in corporate decision-making processes, companies should be prepared for increased engagement and develop effective strategies to address concerns. The adoption of mandatory demat is likely to contribute to global integration and standardization in shareholding practices, facilitating cross-border investments and partnerships. Companies should also anticipate innovations in cybersecurity technologies to safeguard digital assets in this electronic environment. Collaborations with Regulatory Technology solutions may become more common to streamline compliance processes and stay abreast of evolving regulatory requirements efficiently. In essence, the mandatory dematerialization of shares is not just a regulatory shift but a catalyst for broader changes, and companies that proactively consider these trends are likely to thrive in an environment shaped by innovation, sustainability, and digital transformation.</p>
+
+                            <p><strong>Conclusion</strong></p>
+                            <p>In conclusion, the mandatory dematerialization of shares in non small private limited companies marks a significant milestone in the evolution of India’s financial landscape. This transformative move, guided by regulatory changes and driven by the Ministry of Corporate Affairs, underscores a commitment to transparency, efficiency, and investor protection. The shift to digital formats through Demat accounts not only aligns with global trends in sustainable and paperless practices but also positions India at the forefront of technological advancements in corporate governance.</p>
+                            <p>Despite challenges, companies embracing this change stand to benefit from a more engaged, globally integrated, and innovation-driven shareholding environment. In essence, the move goes beyond compliance—it sets the stage for a future where financial transactions are streamlined, secure, and in harmony with evolving industry standards.</p>
+
+
+						</div>
+					</div>
+					<div class="col-lg-4">
+                        <div class="small-index">
+                            <h3>Our Services</h3>
+                            <ul>
+                                
+                                <li>Transaction Advisory Services</li>
+                                <li>Contract Lifecycle Management</li>
+                                <li>Intellectual Property Portfolio Management</li>
+                                <li>Secretarial Compliance</li>
+                                <li>Startup Advisory</li>
+                                <li>Miscellaneous legal services</li>
+                                <li>Media and Entertainment Law</li>
+                                <li>Paralegal Services</li>
+                            </ul>
+                        </div>
+                        <div class="contact-wrapper">
+                            <h3>Book Your Consultation</h3>
+                            <form name="contact-form" class="row contact-form" novalidate="novalidate" onsubmit="return false">
+															
+                                <div class="col-lg-12">
+                                  <div class="form-group input-bottom-border">
+                                      <input type="text" id="bname" name="name" class="form-control name" placeholder="Brand Name *"> 
+                                  </div>
+                                </div>
+                                      
+                                <div class="col-lg-12">
+                                  <div class="form-group input-bottom-border">
+                                      <input type="text" id="weburl" name="Lname" class="form-control name" placeholder="Website/Social Media URL *"> 
+                                  </div>
+                                </div>  
+                                <div class="col-lg-12">
+                                  <div class="form-group input-bottom-border">
+                                    <input type="email" id="Email" name="email" class="form-control email" placeholder="Email Address *">
+                                    <span id="emailError" class="error"></span>
+                                  </div>
+                                </div>   
+        
+                                <div class="col-md-12">
+                                  <div class="form-group input-bottom-border ">
+                                      <textarea name="message" id="message" class="form-control message mb-5" rows="5" placeholder="Your Message ..."></textarea>
+                                  </div>
+                                </div> 
+                                <div class="col-md-6">  
+                                  <div class="contactus-cta ">
+                                      <button class="primary-btn btn-bg has-arrow" id="mail-btn" onclick="sendEmail()"> 
+                                        <!-- <span id="btn-spinner" class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> -->
+                                        SUBMIT </button>
+                                  </div>
+                                </div>                         
+                      </form>	
+                        </div>
+
+
+
+
+					</div>
+				</div>
+			</div>
+		  </section>
+
+
+		<section id="footer">
+			<footer>
+			  <div class="main-footer ">
+				<div class="container p-4">
+					<div class="row">
+						<div class="col-md-4 col-sm-6 mb-4">
+							<img src="/assets/images/homepage/logo.png" alt="Logo" class="img-fluid pb-5">
+							<ul class="list-unstyled">
+								<li><a href="#">Email: info@pramahlawmen.com</a></li>
+								<li><a href="#">Phone: + 91 7600 675 676</a></li>
+							  </ul>
+						  </div>
+						  <div class="col-lg-4 col-sm-6 mb-4">
+							<h3 class="pb-3">Our Services</h3>
+							<ul class="list-unstyled">
+							  <li><a href="#">Transaction Advisory Services
+							</a></li>
+							  <li><a href="#">Contract Lifecycle Management</a></li>
+							  <li><a href="#">Intellectual Property Portfolio Management</a></li>
+							  <li><a href="#">Secretarial Compliance</a></li>
+							  <li><a href="#">Startup Advisory</a></li>
+							  <li><a href="#">Miscellaneous legal services</a></li>
+							  <li><a href="#">Media and Entertainment Law</a></li>
+							  <li><a href="#">Paralegal Services</a></li>
+							</ul>
+						  </div>
+						  <div class="col-lg-4 col-sm-6 mb-4">
+							<h3 class="pb-3">Contact Info</h3>
+							<p> Ahmedabad Office:<br>
+								12th floor, Shivarth The ACE,<br>
+								Sindhu Bhavan Road, Bodakdev,<br>
+								Ahmedabad - 380054</p>
+							<p>+91 9725 179 191</p>
+							<p> Gurugram Office: <br>
+								Tower A - 426, EMAAR DIGITAL GREEN, <br>
+								Sector 61, Gurugram 122011</p>
+						  </div>
+					</div>
+
+				</div>
+			  </div>
+			  <div class="main-footer-nav row bg-dark text-white py-3">
+				<div class="container-fluid text-center">
+				  <p class="mb-0">© Copyright 2024 | Pramahlawmen | All rights reserved.
+					<br>
+					Privacy Policy</p>
+				</div>
+				<div class="go-up text-center mt-2">
+				  
+				</div>
+			  </div>
+			</footer>
+		  </section>
+      <div class="scroll-top-btn"> <span onclick="scrollToTop()"> </span> </div>
+		  <a href="https://api.whatsapp.com/send?phone=919899537363" aria-label="Whatsapp" class="whatsapp-icon"
+			target="_blank"> <i class="fab fa-whatsapp"></i> </a>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" async></script>
+	<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js" ></script>
+	<!-- <script src="./assets/js/bootstrap-select.min.js"></script>
+	<script src="./assets/js/bootstrap-select.min.js"></script>
+	<script src="./assets/js/bootstrap.min.js"></script>
+	<script src="./assets/js/jquery-ui.min.js"></script>
+	<script src="./assets/js/jquery.js"></script>
+	<script src="./assets/js/js.js"></script>
+	<script src="./assets/js/respond.js"></script> -->
+
+	<script>
+
+
+// steps swiper
+
+var swiper = new Swiper(".stepsSwiper", {
+  slidesPerView: 1,
+  spaceBetween: 30,
+  freeMode: true,
+  pagination: {
+    // el: ".swiper-pagination",
+    clickable: true,
+  },
+  autoplay: {
+    delay: 2000,
+  },
+  breakpoints: {
+    320: {
+      slidesPerView: 1.1,
+      spaceBetween: 15,
+    },
+    480: {
+      slidesPerView: 1.3,
+      spaceBetween: 20,
+    },
+    576: {
+      slidesPerView: 2,
+      spaceBetween:15,
+    },     
+    768: {
+      slidesPerView: 2,
+      spaceBetween: 15,
+    },
+    992: {
+      slidesPerView: 2.5,
+      spaceBetween:30,
+    },
+    1200: {
+      slidesPerView:1,
+      spaceBetween:20,
+    },    
+  },
+});
+	</script>
+</body>
+</html>
